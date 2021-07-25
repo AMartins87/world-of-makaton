@@ -9,4 +9,25 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+    color: #311a47;
+}
+/* headings and logo */
+
+h1, h3 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color:#894ac5
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
+    margin-top: 45px;
+    margin-left: 45px;
+}
+
+#subheading {
+    float: centre;
+    font-size: 150%;
 }
