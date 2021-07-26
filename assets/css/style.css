@@ -32,8 +32,11 @@ h3 {
     margin-left: 45px;
 }
 
-#subheading {
+.subheading {
+    float: inherit;
     font-size: 150%;
+    margin-top: 40px;
+    margin-left: 45px;
 }
 
 #menu {
@@ -66,8 +69,7 @@ h3 {
 
 #home-image {
     margin-top: 75px;
-    height: 500px;
+    height: 800px;
     width: 100%;
-    background: url(../css/images/home-image.jpg) no-repeat center center;
-    
-}
+    background: url(../css/images/home-page-full.png) no-repeat center center;
+    }
