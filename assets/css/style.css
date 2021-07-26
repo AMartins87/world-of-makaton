@@ -13,17 +13,22 @@ body {
 }
 /* headings and logo */
 
-h1, h3 {
+h1 {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
     color:#894ac5
 }
 
-#logo {
+h3 {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 6px;
+    color:#894ac5
+}
+
+#logo{
     float: left;
     font-size: 300%;
-    margin-top: 45px;
     margin-left: 45px;
 }
 
@@ -36,6 +41,10 @@ h1, h3 {
     letter-spacing: 6px;
     width: 100%;
     float: right;
+}
+
+#menu, #logo {
+    line-height: 50px;
 }
 
 #menu li {
@@ -51,4 +60,14 @@ h1, h3 {
 
 #menu a:hover {
     border-bottom: 0.5px solid #311a47;
+}
+
+/* home-image */
+
+#home-image {
+    margin-top: 75px;
+    height: 500px;
+    width: 100%;
+    background: url(../css/images/home-image.jpg) no-repeat center center;
+    
 }
