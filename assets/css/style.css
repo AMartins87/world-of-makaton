@@ -25,14 +25,18 @@ h3 {
     font-family: 'Raleway', sans-serif;
     letter-spacing: 6px;
     color:#894ac5;
+    margin-top: 95px;
     padding-left: 45px;
+}
+#header-section {
+    display: inline-flex;
 }
 
 #logo{
     float: left;
     font-size: 300%;
     margin-left: 45px;
-    margin-top: 15px;
+    margin-top: 35px;
 }
 
 .subheading {
@@ -43,6 +47,7 @@ h3 {
 
 #menu {
     font-size: 150%;
+    margin-top: 95px;
     letter-spacing: 6px;
     width: 100%;
     float: right;
@@ -66,7 +71,7 @@ h3 {
 /* home-image */
 
 .home-image {
-    margin-top: 75px;
+    margin-top: 15px;
     height: 700px;
     width: 100%;
     background: url(../css/images/home-page-full.png) no-repeat center center;
@@ -74,7 +79,7 @@ h3 {
 
 /* footer and media links */
 #footer {
-    display: inline;   
+    display: inline;  
 }
 
 p {
@@ -83,14 +88,16 @@ p {
 }
 
 .social-media {
-    text-align: right;
+  float: right;
 }
 
 .social-media > li {
-    display: inline;
+    display: inline-flex;
+    margin-top: 15px;
 }
 
 .social-media i {
     color: #6d1abb;
     margin-right: 45px;
+    margin-bottom: 5px
 }
