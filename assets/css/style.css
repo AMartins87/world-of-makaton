@@ -65,7 +65,7 @@ h3 {
 
 /* home-image */
 
-#home-image {
+.home-image {
     margin-top: 75px;
     height: 700px;
     width: 100%;
@@ -73,16 +73,24 @@ h3 {
 }
 
 /* footer and media links */
-
-footer {
-    height: 50px;
+#footer {
+    display: inline;   
 }
 
 p {
-    text-align: left;
-    padding-top: 20px;
     margin-left: 45px;
-    font-size: 75%;
+    margin-top: 15px;
 }
 
+.social-media {
+    text-align: right;
+}
 
+.social-media > li {
+    display: inline;
+}
+
+.social-media i {
+    color: #6d1abb;
+    margin-right: 45px;
+}
