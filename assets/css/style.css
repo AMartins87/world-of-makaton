@@ -8,9 +8,10 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    font-weight: 800;
     color: #6d1abb;
 }
+
 /* headings and logo */
 
 h1 {
@@ -23,20 +24,21 @@ h1 {
 h3 {
     font-family: 'Raleway', sans-serif;
     letter-spacing: 6px;
-    color:#894ac5
+    color:#894ac5;
+    padding-left: 45px;
 }
 
 #logo{
     float: left;
     font-size: 300%;
     margin-left: 45px;
+    margin-top: 15px;
 }
 
 .subheading {
     float: inherit;
     font-size: 150%;
-    margin-top: 40px;
-    margin-left: 45px;
+    margin-top: 55px;
 }
 
 #menu {
@@ -44,10 +46,6 @@ h3 {
     letter-spacing: 6px;
     width: 100%;
     float: right;
-}
-
-#menu, #logo {
-    line-height: 50px;
 }
 
 #menu li {
@@ -69,7 +67,22 @@ h3 {
 
 #home-image {
     margin-top: 75px;
-    height: 800px;
+    height: 700px;
     width: 100%;
     background: url(../css/images/home-page-full.png) no-repeat center center;
-    }
+}
+
+/* footer and media links */
+
+footer {
+    height: 50px;
+}
+
+p {
+    text-align: left;
+    padding-top: 20px;
+    margin-left: 45px;
+    font-size: 75%;
+}
+
+
