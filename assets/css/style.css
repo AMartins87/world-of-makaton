@@ -67,7 +67,11 @@ h3 {
 }
 
 #menu a:hover {
-    border-bottom: 0.5px solid #311a47;
+    border-bottom: 0.5px dashed #311a47;
+}
+
+.active {
+    background-color: #d0bddd;
 }
 
 /* home-image */
@@ -81,7 +85,7 @@ h3 {
 
 /* footer and media links */
 
-p {
+.footer {
     float: left;
     line-height: 95px;
     margin-left: 20px;
@@ -105,4 +109,107 @@ p {
     color:#6d1abb;
     text-decoration: none;
     float: inherit;
+}
+
+/* Media queries */
+
+/* for medium screens size from 950px wide and down */
+
+@media screen and (max-width: 950px) {
+
+    #menu {
+        font-size: 110%;
+        text-transform: uppercase;
+        margin-top: 75px;
+        letter-spacing: 5px;
+        width: 95%;
+        float: right;
+    }
+
+    #menu li {
+        list-style-type: none;
+        margin-right: 45px;
+        float: right;
+    }
+
+    .home-image {
+        margin-top: 15px;
+        height: 825px;
+        width: 110%;
+    }
+
+    .social-media > li {
+        display: inline;
+        letter-spacing: 25px;
+        font-size: 150%;
+}
+
+/* for small screen sizes 800px and down */
+
+@media screen and (max-width: 800px) {
+
+    #header-section {
+        display: contents;
+    }
+  
+    #logo {
+        text-align: center;
+        font-size: 150%;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+
+    h3 {
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        font-size: 75%;
+        letter-spacing: 6px;
+        color: #894ac5;
+        margin-top: 45px;
+        margin-right: 45px;
+    }
+
+    #menu {
+        font-size: 70%;
+        text-transform: uppercase;
+        margin-top: 25px;
+        letter-spacing: 5px;
+        width: 95%;
+        float: right;
+    }
+
+    #menu li {
+        list-style-type: none;
+        margin-right: 40px;
+        float: right;
+    }
+
+    .home-image {
+        height: 800px;
+        width: 100%;
+        margin-top: 65px;
+    }
+
+    .footer {
+        font-size: 75%
+        text-align: center;
+        margin-left: 75px;
+        line-height: 25px   ;
+    }
+
+    .social-media {
+        float: right;
+        list-style-type: none;
+        margin-right: 20px;
+    }
+    }
+
+    .social-media > li {
+        display: inline;
+        text-align: center;
+        letter-spacing: 15px;
+        margin-right: 35px;
+        font-size: 110%;
+    }
+
 }
