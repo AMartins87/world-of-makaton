@@ -23,11 +23,14 @@ h1 {
 
 h3 {
     font-family: 'Raleway', sans-serif;
+    text-align: left;
+    font-size: 110%;
     letter-spacing: 6px;
     color:#894ac5;
-    margin-top: 95px;
+    margin-top: 75px;
     padding-left: 45px;
 }
+
 #header-section {
     display: inline-flex;
 }
@@ -41,12 +44,11 @@ h3 {
 
 .subheading {
     float: inherit;
-    font-size: 150%;
-    margin-top: 55px;
 }
 
 #menu {
-    font-size: 150%;
+    font-size: 110%;
+    text-transform: uppercase;
     margin-top: 95px;
     letter-spacing: 6px;
     width: 100%;
@@ -79,20 +81,16 @@ h3 {
 
 /* footer and media links */
 
-footer {
-    
-}
-
 p {
     float: left;
-    line-height: 75px;
+    line-height: 95px;
     margin-left: 20px;
 }
 
 .social-media {
     float: right;
     list-style-type: none;
-    line-height: 75px;
+    line-height: 95px;
     margin-right: 20px;
     
 }
