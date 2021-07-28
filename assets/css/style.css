@@ -113,27 +113,41 @@ h3 {
 
 /* About page */ 
 
-.about p {
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text p {
+    font-weight: 500;
+    padding-left: 10%;
     margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 50%;
+    width: 65%;
     }
 
 ol {
-    margin-top: 2%;
-    margin-left: 10%;
-    margin-right: 5%;
+    padding-left: 10%;
+    margin-top: 5%;
+    width: 65%;
 }
 
 ol li {
     font-style: normal;
     font-weight: 500;
     margin-top: 1%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 1%;
+    
 }
+img {
+    max-width: 100%;
+   
 }
+
+.image {
+  flex-basis: 50%;
+  margin-top: 125px;
+  margin-right: 25%;
 }
 
 /* Media queries */
@@ -216,7 +230,7 @@ ol li {
     }
 
     .footer {
-        font-size: 75%
+        font-size: 75%;
         text-align: center;
         margin-left: 75px;
         line-height: 25px;
