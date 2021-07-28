@@ -113,8 +113,27 @@ h3 {
 
 /* About page */ 
 
-p {
-    margin-left: 55px;
+.about p {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 50%;
+    }
+
+ol {
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+ol li {
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+}
 }
 
 /* Media queries */
