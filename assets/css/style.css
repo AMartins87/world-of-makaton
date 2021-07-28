@@ -67,10 +67,10 @@ h3 {
 }
 
 #menu a:hover {
-    border-bottom: 0.5px dashed #311a47;
+    border-bottom: double #311a47;
 }
 
-.active {
+.active  {
     background-color: #d0bddd;
 }
 
@@ -109,6 +109,12 @@ h3 {
     color:#6d1abb;
     text-decoration: none;
     float: inherit;
+}
+
+/* About page */ 
+
+p {
+    margin-left: 55px;
 }
 
 /* Media queries */
@@ -194,7 +200,7 @@ h3 {
         font-size: 75%
         text-align: center;
         margin-left: 75px;
-        line-height: 25px   ;
+        line-height: 25px;
     }
 
     .social-media {
@@ -211,5 +217,4 @@ h3 {
         margin-right: 35px;
         font-size: 110%;
     }
-
 }
