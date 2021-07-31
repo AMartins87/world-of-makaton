@@ -71,11 +71,11 @@ h3 {
 /* home-image */
 
 .home-image {
-    margin-top: 75px;
-    height: 750px;
+    margin-top: 85px;
+    height: 900px;
     width: 100%;
-    
-    background: url(./images/hero-image.jpg) no-repeat center center;
+    background: url(./images/hero_image_nv.jpg) no-repeat center center;
+    background-size: cover;
 }
 
 /* footer and media links */
