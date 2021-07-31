@@ -24,7 +24,7 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 6px;
     font-size: 300%;
-    color:#894ac5;
+    color: #894ac5;
 }
 
 h3 {
@@ -32,8 +32,9 @@ h3 {
     text-align: left;
     font-size: 110%;
     letter-spacing: 6px;
-    color:#894ac5;
+    color: #894ac5;
 }
+
 .left {
     float: left;
 }
@@ -61,7 +62,7 @@ h3 {
 
 .right a {
     text-decoration: none;
-    color:inherit
+    color: inherit
 }
 
 .right a:hover {
@@ -81,43 +82,43 @@ h3 {
 /* footer and media links */
 
 footer {
-	background-color: #6d1abb;
-	padding: 3px;
-	position: fixed;
-	bottom: 0px;
-	right: 0;
-	width: 100%;
+    background-color: #6d1abb;
+    padding: 3px;
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+    width: 100%;
     height: 35px;
 }
 
-footer > a {
-	color: white;
-	text-decoration: none;
-	padding: 5px 15px;
-	font-size: 130%;
+footer>a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-size: 130%;
     letter-spacing: 50px;
     float: right;
-    
+
 }
 
-footer > p {
-	color: white;
+footer>p {
+    color: white;
     padding: 10px 15px;
-	font-size: 75%;
+    font-size: 75%;
     text-align: left;
 }
 
 .footer-nav-social i {
-        color:#6d1abb;
-        text-decoration: none;
-        float: right;
+    color: #6d1abb;
+    text-decoration: none;
+    float: right;
 }
 
-/* About page */ 
+/* About page */
 
 .float-left {
-    width: 45%; 
-    float: left; 
+    width: 45%;
+    float: left;
 
 }
 
@@ -130,6 +131,7 @@ footer > p {
     margin-right: 25px;
     margin-left: 100px;
 }
+
 .text {
     padding-top: 55px;
     margin-left: 15px;
@@ -137,28 +139,30 @@ footer > p {
 }
 
 .picture {
-    padding-top: 75px;
+    padding-top: 55px;
     margin-left: 15px;
     padding-left: 25px;
     text-align: center;
 }
+
 img {
-    width: 55%;
+    width: 75%;
     height: auto;
     margin-right: 10px;
+    border-radius: 10px;
 }
 
 .container ol {
     text-transform: uppercase;
     margin-top: 30px;
-    margin-left: 15px;  
+    margin-left: 15px;
 }
 
 .container li {
-        text-transform: none;
-        margin-left: 25px;
-        padding-top: 10px;
-        padding-left: 25px;
+    text-transform: none;
+    margin-left: 25px;
+    padding-top: 10px;
+    padding-left: 25px;
 }
 
 /* Sign Up page */
@@ -177,9 +181,10 @@ img {
     font-style: oblique;
     font-weight: lighter;
 }
+
 .signup-form {
     margin: 150px 10% 0 0;
-    color:  white;
+    color: white;
     font-size: larger;
     background-color: rgba(155, 88, 213, 0.8);
     width: 650px;
@@ -200,7 +205,7 @@ img {
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid white; 
+    border: 1px solid white;
     border-radius: 10px;
 }
 
@@ -226,8 +231,10 @@ img {
     color: #6d1abb;
 }
 
-#materials, #video, #workshops {
-    display:list-item;
+#materials,
+#video,
+#workshops {
+    display: list-item;
     text-align: center;
     vertical-align: bottom;
 }
@@ -243,23 +250,154 @@ h2 i {
     flex-wrap: wrap;
     padding: 0 4px;
     margin-top: 75px;
-  }
+}
 
-  .column {
+.column {
     flex: 10%;
     max-width: 10%;
     padding: 0 4px;
-  }
-  
-  
-  
-  .column img {
+}
+
+.column img {
     margin-top: 15px;
     margin-left: 50px;
     margin-bottom: 15px;
     vertical-align: middle;
     width: 100%;
-  }
+}
+
 /* Media queries */
 
+/* for medium screens size from 12000px wide and down */
+
+@media screen and (max-width: 1200px) {
+    .column {
+        flex: 25%;
+        max-width: 25%;
+    }
+}
+
 /* for medium screens size from 950px wide and down */
+
+@media screen and (max-width: 950px) {
+
+    #logo {
+        text-align: center;
+        font-size: 150%;
+        margin-top: 25px;
+    }
+
+    h3 {
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        font-size: 75%;
+        color: #894ac5;
+        margin-right: 45px;
+    }
+
+    #menu {
+        font-size: 70%;
+        text-transform: uppercase;
+        margin-top: 25px;
+        margin-left: 20px;
+        width: 100%;
+        float: none;
+    }
+
+    #menu li {
+        list-style-type: none;
+        margin-right: 45px;
+        float: right;
+    }
+
+    .home-image {
+        margin-top: 15px;
+        height: 825px;
+        width: 110%;
+    }
+
+    .social-media>li {
+        display: inline;
+        letter-spacing: 25px;
+        font-size: 150%;
+    }
+
+
+
+
+    .column {
+        flex: 25%;
+        max-width: 75%;
+        margin-top: 85px;
+        margin-bottom: 15px;
+
+    }
+}
+
+/* for medium screens size from 800px wide and down */
+
+@media screen and (max-width: 950px) {
+
+    header {
+        padding: 35px 35px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+
+    #ul {
+        list-style-type: none;
+    }
+
+    .right li {
+        display: inline-block;
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 150%;
+        margin-right: 50px;
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+
+    .right a {
+        text-decoration: none;
+        color: inherit
+    }
+
+    .right a:hover {
+        border-bottom: double #9972be;
+    }
+
+    .form-section {
+        clear: left;
+        background: url("./images/hands.jpg");
+        background-size: cover;
+        padding-top: 100px;
+        height: 750px;
+    }
+
+    .signup-form {
+        margin: 150px 10% 0 0;
+        color: white;
+        font-size: larger;
+        background-color: rgba(155, 88, 213, 0.8);
+        width: 570px;
+        position: absolute;
+        left: 10%;
+        padding: 25px;
+        text-align: center;
+        border-radius: 10%;
+    }
+
+    .join-button {
+        margin-top: 30px;
+        border-radius: 10px;
+        padding: 10px 25px 10px 25px;
+        text-align: center;
+        font-size: 100%;
+        background-color: #6d1abb;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.719);
+        color: white;
+        display: block;
+    }
+}
