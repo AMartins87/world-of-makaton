@@ -235,6 +235,31 @@ img {
 h2 i {
     font-size: 150%;
 }
+
+/* Abc */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-top: 75px;
+  }
+
+  .column {
+    flex: 10%;
+    max-width: 10%;
+    padding: 0 4px;
+  }
+  
+  
+  
+  .column img {
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    vertical-align: middle;
+    width: 100%;
+  }
 /* Media queries */
 
 /* for medium screens size from 950px wide and down */
