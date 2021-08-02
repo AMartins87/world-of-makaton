@@ -30,9 +30,15 @@ h1 {
 h3 {
     font-family: 'Raleway', sans-serif;
     text-align: left;
-    font-size: 110%;
+    font-size: 100%;
     letter-spacing: 6px;
     color: #894ac5;
+}
+
+#subheading h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: lighter;
+    color: white;
 }
 
 .left {
@@ -52,12 +58,12 @@ h3 {
 }
 
 .right li {
-    display: inline-block;
+    display: table-header-group;
     text-transform: uppercase;
     font-weight: 800;
     font-size: 150%;
-    margin-right: 25px;
     margin-top: 25px;
+    text-align: right;
 }
 
 .right a {
@@ -69,14 +75,26 @@ h3 {
     border-bottom: double #9972be;
 }
 
-/* home-image */
+#subheading {
+    font-size: 130%;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 4px;
+    width: 500px;
+    height: 100px;
+    padding: 25px 15px 5px 25px;
+    background-color: rgba(155, 88, 213, 0.8);
+    left: 20px;
+    top: 50px;
+}
 
-.home-image {
-    margin-top: 85px;
+#home-image {
+    margin-top: 120px;
     height: 900px;
     width: 100%;
-    background: url(./images/hero_image_nv.jpg) no-repeat center center;
+    background: url(../css/images/hero_image_nv.jpg) no-repeat center center;
     background-size: cover;
+    padding-top: 50px;
+    position: relative;
 }
 
 /* footer and media links */
@@ -119,50 +137,73 @@ footer>p {
 .float-left {
     width: 45%;
     float: left;
-
 }
 
 .float-right {
-    width: 50%;
+    width: 45%;
     float: right;
 }
 
 .container {
-    margin-right: 25px;
-    margin-left: 100px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 .text {
+    text-align: justify;
     padding-top: 55px;
-    margin-left: 15px;
-    text-align: left;
-}
-
-.picture {
-    padding-top: 55px;
-    margin-left: 15px;
-    padding-left: 25px;
-    text-align: center;
+    margin-left: 35px;
 }
 
 img {
-    width: 75%;
-    height: auto;
-    margin-right: 10px;
+    width: 25%;
+    height: 600px;
+    padding: 20px 20px 20px 20px;
     border-radius: 10px;
+    float: right;
 }
 
-.container ol {
+.text {
+    margin: 150px 150px 15px 15px;
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+    width: 75%;
+}
+
+ol {
     text-transform: uppercase;
     margin-top: 30px;
     margin-left: 15px;
 }
 
-.container li {
+li {
     text-transform: none;
     margin-left: 25px;
     padding-top: 10px;
     padding-left: 25px;
+}
+
+/* Abc */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-top: 75px;
+}
+
+.column {
+    flex: 10%;
+    max-width: 10%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    vertical-align: middle;
+    width: 100%;
 }
 
 /* Sign Up page */
@@ -243,161 +284,485 @@ h2 i {
     font-size: 150%;
 }
 
-/* Abc */
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-    margin-top: 75px;
-}
-
-.column {
-    flex: 10%;
-    max-width: 10%;
-    padding: 0 4px;
-}
-
-.column img {
-    margin-top: 15px;
-    margin-left: 50px;
-    margin-bottom: 15px;
-    vertical-align: middle;
-    width: 100%;
-}
-
 /* Media queries */
 
-/* for medium screens size from 12000px wide and down */
+/* Large screens 1200px wide and down */
 
 @media screen and (max-width: 1200px) {
-    .column {
-        flex: 25%;
-        max-width: 25%;
-    }
-}
-
-/* for medium screens size from 950px wide and down */
-
-@media screen and (max-width: 950px) {
-
-    #logo {
-        text-align: center;
-        font-size: 150%;
-        margin-top: 25px;
-    }
 
     h3 {
         font-family: 'Raleway', sans-serif;
-        text-align: center;
-        font-size: 75%;
+        text-align: justify;
+        font-size: 120%;
+        letter-spacing: 1px;
         color: #894ac5;
-        margin-right: 45px;
-    }
-
-    #menu {
-        font-size: 70%;
-        text-transform: uppercase;
-        margin-top: 25px;
-        margin-left: 20px;
-        width: 100%;
-        float: none;
-    }
-
-    #menu li {
-        list-style-type: none;
-        margin-right: 45px;
-        float: right;
-    }
-
-    .home-image {
-        margin-top: 15px;
-        height: 825px;
-        width: 110%;
-    }
-
-    .social-media>li {
-        display: inline;
-        letter-spacing: 25px;
-        font-size: 150%;
-    }
-
-
-
-
-    .column {
-        flex: 25%;
-        max-width: 75%;
-        margin-top: 85px;
-        margin-bottom: 15px;
-
-    }
-}
-
-/* for medium screens size from 800px wide and down */
-
-@media screen and (max-width: 950px) {
-
-    header {
-        padding: 35px 35px;
-        box-sizing: border-box;
-        text-align: center;
-    }
-
-
-    #ul {
-        list-style-type: none;
     }
 
     .right li {
-        display: inline-block;
+        display: table-row-group;
         text-transform: uppercase;
         font-weight: 800;
-        font-size: 150%;
-        margin-right: 50px;
-        margin-left: 25px;
-        margin-top: 25px;
+        font-size: 140%;
+        padding-top: 15px;
+        text-align: right;
     }
 
-    .right a {
-        text-decoration: none;
-        color: inherit
+    #home-image {
+        margin-top: 100px;
+        height: 1100px;
+        width: 100%;
+        background: url(./images/hero_image_nv.jpg) no-repeat center center;
+        background-size: cover;
     }
 
-    .right a:hover {
-        border-bottom: double #9972be;
+    #subheading h3 {
+        font-family: 'Raleway', sans-serif;
+        position: relative;
+        margin: 0;
+    }
+
+    #subheading {
+        font-size: 120%;
+        font-family: 'Raleway', sans-serif;
+        width: 400px;
+        height: 120px;
+        padding: 25px 15px 5px 25px;
+        background-color: rgba(155, 88, 213, 0.8);
+        left: 0;
+        top: 50px;
+    }
+
+    img {
+        width: 45%;
+        height: 600px;
+        padding: 10px 20px 20px 20px;
+        border-radius: 10px;
+        float: right;
     }
 
     .form-section {
-        clear: left;
-        background: url("./images/hands.jpg");
+        clear: both;
+        background: url(./images/hands.jpg);
         background-size: cover;
-        padding-top: 100px;
-        height: 750px;
+        height: 1100px;
+    }
+
+    .form-section label {
+        font-size: 80%;
+        display: block;
     }
 
     .signup-form {
-        margin: 150px 10% 0 0;
+        margin: 25% 15% 25% 15%;
         color: white;
-        font-size: larger;
+        font-size: 150%;
         background-color: rgba(155, 88, 213, 0.8);
-        width: 570px;
+        width: 650px;
         position: absolute;
-        left: 10%;
-        padding: 25px;
-        text-align: center;
-        border-radius: 10%;
+        padding: 35px;
+        border-radius: 10px;
     }
 
-    .join-button {
-        margin-top: 30px;
-        border-radius: 10px;
-        padding: 10px 25px 10px 25px;
-        text-align: center;
-        font-size: 100%;
-        background-color: #6d1abb;
-        box-shadow: 0 0 4px rgba(0, 0, 0, 0.719);
+    .text-input {
+        background: transparent;
         color: white;
-        display: block;
+        width: 85%;
+        height: 20px;
+        margin: 5px 0 20px 0;
+        border: 1px solid white;
+        border-radius: 10px;
     }
-}
+
+    .signup-form h2 {
+        color: white;
+        margin-bottom: 20px;
+        font-size: 120%;
+    }
+
+    h2 i {
+        font-size: 120%;
+    }
+
+    /* Medium screens - 850px and down */
+    @media screen and (max-width: 850px) {
+
+        h1 {
+            font-family: 'Raleway', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 6px;
+            font-size: 250%;
+            margin-top: 10px;
+        }
+
+        h3 {
+            font-family: 'Raleway', sans-serif;
+            text-align: left;
+            font-size: 100%;
+            letter-spacing: 1px;
+            position: absolute;
+            color: #894ac5;
+            margin-top: 25px;
+        }
+
+        #subheading h3 {
+            font-family: 'Raleway', sans-serif;
+            font-weight: lighter;
+            position: relative;
+            margin: 0;
+        }
+
+        .right li {
+            display: table-row-group;
+            text-transform: uppercase;
+            font-weight: 800;
+            font-size: 110%;
+            padding-top: 15px;
+            text-align: right;
+        }
+
+        #subheading {
+            font-size: 130%;
+            font-family: 'Raleway', sans-serif;
+            letter-spacing: 4px;
+            width: 350px;
+            height: 110px;
+            padding: 25px 15px 5px 25px;
+            background-color: rgba(155, 88, 213, 0.8);
+            left: 0;
+            /* top: 50px; */
+        }
+
+        #home-image {
+            margin-top: 50px;
+            height: 900px;
+            width: 100%;
+            background: url(../css/images/hero_image_nv.jpg) no-repeat center center;
+            background-size: cover;
+            padding-top: 50px;
+            position: relative;
+        }
+
+        .form-section {
+            clear: left;
+            background: url("./images/hands.jpg");
+            background-size: contain;
+            height: 650px;
+            padding-bottom: 50px;
+            margin-top: 100px;
+        }
+
+        .signup-form {
+            margin: 10% 10% 10% 0;
+            color: white;
+            font-size: 150%;
+            background-color: rgba(155, 88, 213, 0.8);
+            width: 550px;
+            position: absolute;
+            padding: 30px;
+            border-radius: 10px;
+
+        }
+
+        .join-button {
+            margin-top: 20px;
+            font-family: 'Montserrat';
+            border-radius: 10px;
+            padding: 10px 25px 10px 25px;
+            text-align: center;
+            font-size: 80%;
+            background-color: #6d1abb;
+            box-shadow: 0 0 4px rgb(0 0 0 / 72%);
+            color: white;
+            display: block;
+            float: right;
+        }
+
+        /* Small screens (iPad) */
+        @media screen and (max-width: 700px) {
+
+            header {
+                padding: 35px 35px;
+            }
+
+            h1 {
+                font-family: 'Raleway', sans-serif;
+                text-transform: uppercase;
+                letter-spacing: 6px;
+                font-size: 200%;
+                text-align: left;
+                color: #894ac5;
+            }
+
+            h3 {
+                font-family: 'Raleway', sans-serif;
+                text-align: left;
+                font-size: 75%;
+                letter-spacing: 6px;
+                color: #894ac5;
+            }
+
+            #subheading h3 {
+                font-family: 'Raleway', sans-serif;
+                position: relative;
+                letter-spacing: 2px;
+                margin: 0;
+            }
+
+
+            .right li {
+                text-transform: uppercase;
+                font-weight: 800;
+                font-size: 90%;
+                margin-right: 15px;
+                margin-top: 25px;
+                text-align: right;
+            }
+
+            #subheading {
+                font-size: 110%;
+                font-family: 'Raleway', sans-serif;
+                width: 200px;
+                height: 100px;
+                padding: 25px 15px 5px 25px;
+                background-color: rgba(155, 88, 213, 0.8);
+                left: 0;
+            }
+
+            #home-image {
+                margin-top: 50px;
+                height: 700px;
+                width: 100%;
+                background: url(../css/images/hero_image_nv.jpg) no-repeat center center;
+                background-size: cover;
+                padding-top: 50px;
+                position: relative;
+            }
+
+            footer>a {
+                color: white;
+                text-decoration: none;
+                padding: 5px 15px;
+                font-size: 100%;
+                letter-spacing: 35px;
+                float: right;
+            }
+
+            .home-image {
+                margin-top: 200px;
+                height: auto;
+                width: 100%;
+            }
+
+            .text ul {
+                display: inline-block;
+            }
+
+            .text li {
+                text-transform: none;
+                margin-left: 15px;
+                padding-top: 10px;
+                padding-left: 10px;
+            }
+
+            .form-section {
+                clear: both;
+                background: url("./images/hands.jpg");
+                background-size: contain;
+                background-position: center;
+                margin-top: 150px;
+                height: 500px;
+            }
+
+            .form-section label {
+                font-size: 80%;
+                display: block;
+            }
+
+            .signup-form {
+                margin: 50px 10% 0 0;
+                color: white;
+                font-size: larger;
+                background-color: rgba(155, 88, 213, 0.8);
+                width: 450px;
+                position: absolute;
+                left: 7%;
+                padding: 25px;
+                border-radius: 10px;
+            }
+
+            .text-input {
+                background: transparent;
+                color: white;
+                width: 85%;
+                height: 20px;
+                margin: 5px 0 20px 0;
+                border: 1px solid white;
+                border-radius: 10px;
+            }
+
+            .signup-form h2 {
+                color: white;
+                margin-bottom: 20px;
+                font-size: 120%;
+            }
+
+            h2 i {
+                font-size: 120%;
+            }
+
+            /* Small screens (iPhones) */
+            @media screen and (max-width: 577px) {
+
+                header {
+                    padding: 10px;
+                }
+
+                h1 {
+                    font-family: 'Raleway', sans-serif;
+                    text-transform: uppercase;
+                    letter-spacing: 4px;
+                    font-size: 130%;
+                    text-align: center;
+                    color: #894ac5;
+                }
+
+                h3 {
+                    font-family: 'Raleway', sans-serif;
+                    text-align: left;
+                    font-size: 75%;
+                    letter-spacing: 6px;
+                    color: #894ac5;
+                }
+
+                #subheading h3 {
+                    font-family: 'Raleway', sans-serif;
+                    position: relative;
+                    letter-spacing: 2px;
+                    margin: 0;
+                }
+
+
+                .right li {
+                    text-transform: uppercase;
+                    display: inline-block;
+                    font-weight: 800;
+                    font-size: 70%;
+                    margin-right: 5px;
+                    margin-top: 5px;
+                }
+
+                li {
+                    text-transform: none;
+                    margin-left: 2px;
+                    padding-top: 10px;
+
+                }
+
+                #subheading {
+                    font-size: 100%;
+                    font-family: 'Raleway', sans-serif;
+                    width: 200px;
+                    height: 65px;
+                    padding: 15px 15px 5px 15px;
+                    background-color: rgba(155, 88, 213, 0.8);
+                    left: 0;
+                }
+
+                #home-image {
+                    margin-top: 50px;
+                    height: 550px;
+                    width: 100%;
+                    background: url(../css/images/hero_image_nv.jpg) no-repeat center center;
+                    background-size: cover;
+                    padding-top: 50px;
+                    position: relative;
+                }
+
+                footer {
+                    background-color: #6d1abb;
+                    padding: 3px;
+                    position: fixed;
+                    bottom: 0px;
+                    right: 0;
+                    width: 100%;
+                    height: 25px;
+                }
+
+                footer>a {
+                    color: white;
+                    text-decoration: none;
+                    padding: 5px 15px;
+                    font-size: 100%;
+                    letter-spacing: 5px;
+                    float: right;
+                }
+
+                footer>p {
+                    color: white;
+                    padding: 5px 15px;
+                    font-size: 55%;
+                    text-align: left;
+                }
+
+                .home-image {
+                    margin-top: 200px;
+                    height: auto;
+                    width: 100%;
+                }
+
+                .text ul {
+                    display: inline-block;
+                }
+
+                .text li {
+                    text-transform: none;
+                    margin-left: 15px;
+                    padding-top: 10px;
+                    padding-left: 10px;
+                }
+
+                .form-section {
+                    clear: both;
+                    background: url("./images/hands.jpg");
+                    background-size: contain;
+                    background-position: center;
+                    margin-top: 150px;
+                    height: 500px;
+                }
+
+                .form-section label {
+                    font-size: 80%;
+                    display: block;
+                }
+
+                .signup-form {
+                    margin: 50px 10% 0 0;
+                    color: white;
+                    font-size: larger;
+                    background-color: rgba(155, 88, 213, 0.8);
+                    width: 450px;
+                    position: absolute;
+                    left: 7%;
+                    padding: 25px;
+                    border-radius: 10px;
+                }
+
+                .text-input {
+                    background: transparent;
+                    color: white;
+                    width: 85%;
+                    height: 20px;
+                    margin: 5px 0 20px 0;
+                    border: 1px solid white;
+                    border-radius: 10px;
+                }
+
+                .signup-form h2 {
+                    color: white;
+                    margin-bottom: 20px;
+                    font-size: 120%;
+                }
+
+                h2 i {
+                    font-size: 120%;
+                }
