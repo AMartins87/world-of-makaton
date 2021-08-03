@@ -31,7 +31,7 @@ h3 {
     font-family: 'Raleway', sans-serif;
     text-align: left;
     font-size: 100%;
-    letter-spacing: 6px;
+    letter-spacing: 3px;
     color: #894ac5;
 }
 
@@ -49,9 +49,9 @@ h3 {
     float: right;
 }
 
-.clear {
+/* clear {
     clear: both;
-}
+}. */
 
 #ul {
     list-style-type: none;
@@ -61,7 +61,7 @@ h3 {
     display: table-header-group;
     text-transform: uppercase;
     font-weight: 800;
-    font-size: 150%;
+    font-size: 130%;
     margin-top: 25px;
     text-align: right;
 }
@@ -75,6 +75,16 @@ h3 {
     border-bottom: double #9972be;
 }
 
+#home-image {
+    margin-top: 70px;
+    height: 900px;
+    width: 100%;
+    background: url(../css/images/hero_image_nv.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 50px;
+    position: relative;
+}
+
 #subheading {
     font-size: 130%;
     font-family: 'Raleway', sans-serif;
@@ -85,16 +95,6 @@ h3 {
     background-color: rgba(155, 88, 213, 0.8);
     left: 20px;
     top: 50px;
-}
-
-#home-image {
-    margin-top: 120px;
-    height: 900px;
-    width: 100%;
-    background: url(../css/images/hero_image_nv.jpg) no-repeat center center;
-    background-size: cover;
-    padding-top: 50px;
-    position: relative;
 }
 
 /* footer and media links */
@@ -126,23 +126,7 @@ footer>p {
     text-align: left;
 }
 
-.footer-nav-social i {
-    color: #6d1abb;
-    text-decoration: none;
-    float: right;
-}
-
 /* About page */
-
-.float-left {
-    width: 45%;
-    float: left;
-}
-
-.float-right {
-    width: 45%;
-    float: right;
-}
 
 .container {
     margin-right: 5px;
@@ -150,24 +134,11 @@ footer>p {
 }
 
 .text {
-    text-align: justify;
-    padding-top: 55px;
-    margin-left: 35px;
-}
-
-img {
-    width: 25%;
-    height: 600px;
-    padding: 20px 20px 20px 20px;
-    border-radius: 10px;
-    float: right;
-}
-
-.text {
     margin: 150px 150px 15px 15px;
     text-align: left;
     padding: 10px 10px 10px 10px;
-    width: 75%;
+    width: 60%;
+    position: absolute;
 }
 
 ol {
@@ -181,6 +152,14 @@ li {
     margin-left: 25px;
     padding-top: 10px;
     padding-left: 25px;
+}
+
+img {
+    width: 25%;
+    height: 600px;
+    padding: 80px 20px 20px 20px;
+    border-radius: 40px;
+    position: inherit;
 }
 
 /* Abc */
@@ -293,8 +272,8 @@ h2 i {
     h3 {
         font-family: 'Raleway', sans-serif;
         text-align: justify;
-        font-size: 120%;
-        letter-spacing: 1px;
+        font-size: 100%;
+        letter-spacing: 0;
         color: #894ac5;
     }
 
@@ -302,8 +281,8 @@ h2 i {
         display: table-row-group;
         text-transform: uppercase;
         font-weight: 800;
-        font-size: 140%;
-        padding-top: 15px;
+        font-size: 100%;
+        /* padding-top: 15px; */
         text-align: right;
     }
 
@@ -332,12 +311,20 @@ h2 i {
         top: 50px;
     }
 
+    .text {
+        margin: 95px 10px 5px 10px;
+        text-align: left;
+        padding: 20px 20px 20px 25px;
+        width: 50%;
+        position: absolute;
+    }
+
     img {
-        width: 45%;
+        width: 35%;
         height: 600px;
-        padding: 10px 20px 20px 20px;
-        border-radius: 10px;
-        float: right;
+        padding: 35px 20px 20px 20px;
+        border-radius: 40px;
+        position: inherit;
     }
 
     .form-section {
@@ -397,11 +384,11 @@ h2 i {
         h3 {
             font-family: 'Raleway', sans-serif;
             text-align: left;
-            font-size: 100%;
-            letter-spacing: 1px;
+            font-size: 90%;
+            letter-spacing: 0;
             position: absolute;
             color: #894ac5;
-            margin-top: 25px;
+            margin-top: 15px;
         }
 
         #subheading h3 {
@@ -415,7 +402,7 @@ h2 i {
             display: table-row-group;
             text-transform: uppercase;
             font-weight: 800;
-            font-size: 110%;
+            font-size: 100%;
             padding-top: 15px;
             text-align: right;
         }
@@ -429,7 +416,6 @@ h2 i {
             padding: 25px 15px 5px 25px;
             background-color: rgba(155, 88, 213, 0.8);
             left: 0;
-            /* top: 50px; */
         }
 
         #home-image {
@@ -441,6 +427,24 @@ h2 i {
             padding-top: 50px;
             position: relative;
         }
+
+        .text {
+            margin: 90px 39px 5px 5px;
+            text-align: left;
+            padding: 20px 10px 5px 10px;
+            width: 55%;
+            font-size: smaller;
+            position: fixed;
+        }
+
+        img {
+            width: 35%;
+            height: 500px;
+            padding: 55px 5px 5px 5px;
+            border-radius: 20px;
+            position: inherit;
+        }
+
 
         .form-section {
             clear: left;
@@ -497,7 +501,6 @@ h2 i {
                 font-family: 'Raleway', sans-serif;
                 text-align: left;
                 font-size: 75%;
-                letter-spacing: 6px;
                 color: #894ac5;
             }
 
@@ -547,14 +550,24 @@ h2 i {
                 float: right;
             }
 
-            .home-image {
-                margin-top: 200px;
-                height: auto;
-                width: 100%;
+            /* .text ul {
+                display: inline-block;
+            } */
+            .text {
+                margin: 90px 39px 5px 5px;
+                text-align: left;
+                padding: 20px 10px 5px 10px;
+                width: 55%;
+                font-size: smaller;
+                position: relative;
             }
 
-            .text ul {
-                display: inline-block;
+            img {
+                width: 95%;
+                height: 750px;
+                padding: 5px 5px 5px 5px;
+                border-radius: 20px;
+                position: inherit;
             }
 
             .text li {
@@ -622,6 +635,7 @@ h2 i {
                     text-transform: uppercase;
                     letter-spacing: 4px;
                     font-size: 130%;
+                    margin-left: 10px;
                     text-align: center;
                     color: #894ac5;
                 }
@@ -629,140 +643,150 @@ h2 i {
                 h3 {
                     font-family: 'Raleway', sans-serif;
                     text-align: left;
-                    font-size: 75%;
-                    letter-spacing: 6px;
+                    font-size: 65%;
+                    letter-spacing: 1px;
                     color: #894ac5;
+                    margin-left: 10px;
                 }
+            }
 
-                #subheading h3 {
-                    font-family: 'Raleway', sans-serif;
-                    position: relative;
-                    letter-spacing: 2px;
-                    margin: 0;
-                }
+            #subheading h3 {
+                font-family: 'Raleway', sans-serif;
+                position: relative;
+                letter-spacing: 2px;
+                margin: 0;
+            }
 
 
-                .right li {
-                    text-transform: uppercase;
-                    display: inline-block;
-                    font-weight: 800;
-                    font-size: 70%;
-                    margin-right: 5px;
-                    margin-top: 5px;
-                }
+            .right li {
+                text-transform: uppercase;
+                font-weight: 800;
+                font-size: 65%;
+                margin-right: 3px;
+                margin-top: 3px;
+            }
 
-                li {
-                    text-transform: none;
-                    margin-left: 2px;
-                    padding-top: 10px;
+            li {
+                text-transform: none;
+                margin-left: 2px;
+                padding-top: 10px;
 
-                }
+            }
 
-                #subheading {
-                    font-size: 100%;
-                    font-family: 'Raleway', sans-serif;
-                    width: 200px;
-                    height: 65px;
-                    padding: 15px 15px 5px 15px;
-                    background-color: rgba(155, 88, 213, 0.8);
-                    left: 0;
-                }
+            #subheading {
+                font-size: 100%;
+                font-family: 'Raleway', sans-serif;
+                width: 200px;
+                height: 65px;
+                padding: 15px 15px 5px 15px;
+                background-color: rgba(155, 88, 213, 0.8);
+                left: 0;
+            }
 
-                #home-image {
-                    margin-top: 50px;
-                    height: 550px;
-                    width: 100%;
-                    background: url(../css/images/hero_image_nv.jpg) no-repeat center center;
-                    background-size: cover;
-                    padding-top: 50px;
-                    position: relative;
-                }
+            #home-image {
+                margin-top: 50px;
+                height: 550px;
+                width: 100%;
+                background: url(../css/images/hero_image_nv.jpg) no-repeat center center;
+                background-size: cover;
+                padding-top: 50px;
+                position: relative;
+            }
 
-                footer {
-                    background-color: #6d1abb;
-                    padding: 3px;
-                    position: fixed;
-                    bottom: 0px;
-                    right: 0;
-                    width: 100%;
-                    height: 25px;
-                }
+            footer {
+                background-color: #6d1abb;
+                padding: 3px;
+                position: fixed;
+                bottom: 0px;
+                right: 0;
+                width: 100%;
+                height: 25px;
+            }
 
-                footer>a {
-                    color: white;
-                    text-decoration: none;
-                    padding: 5px 15px;
-                    font-size: 100%;
-                    letter-spacing: 5px;
-                    float: right;
-                }
+            footer>a {
+                color: white;
+                text-decoration: none;
+                padding: 5px 15px;
+                font-size: 100%;
+                letter-spacing: 5px;
+                float: right;
+            }
 
-                footer>p {
-                    color: white;
-                    padding: 5px 15px;
-                    font-size: 55%;
-                    text-align: left;
-                }
+            footer>p {
+                color: white;
+                padding: 5px 15px;
+                font-size: 55%;
+                text-align: left;
+            }
 
-                .home-image {
-                    margin-top: 200px;
-                    height: auto;
-                    width: 100%;
-                }
+            .text {
+                margin: px 39px 5px 5px;
+                text-align: left;
+                width: 90%;
+                font-size: small;
+            }
 
-                .text ul {
-                    display: inline-block;
-                }
+            img {
+                width: 90%;
+                height: 400px;
+                padding: 5px 5px 5px 5px;
+                border-radius: 20px;
+            }
 
-                .text li {
-                    text-transform: none;
-                    margin-left: 15px;
-                    padding-top: 10px;
-                    padding-left: 10px;
-                }
+            /* .text ul {
+                display: inline-block;
+            } */
 
-                .form-section {
-                    clear: both;
-                    background: url("./images/hands.jpg");
-                    background-size: contain;
-                    background-position: center;
-                    margin-top: 150px;
-                    height: 500px;
-                }
+            .text li {
+                text-transform: none;
+                margin-left: 25px;
+                padding-top: 4px;
+                padding-left: 10px;
+            }
 
-                .form-section label {
-                    font-size: 80%;
-                    display: block;
-                }
+            .form-section {
+                clear: both;
+                background: url("./images/hands.jpg");
+                background-size: contain;
+                background-position: center;
+                margin-top: 150px;
+                height: 500px;
+            }
 
-                .signup-form {
-                    margin: 50px 10% 0 0;
-                    color: white;
-                    font-size: larger;
-                    background-color: rgba(155, 88, 213, 0.8);
-                    width: 450px;
-                    position: absolute;
-                    left: 7%;
-                    padding: 25px;
-                    border-radius: 10px;
-                }
+            .form-section label {
+                font-size: 80%;
+                display: block;
+            }
 
-                .text-input {
-                    background: transparent;
-                    color: white;
-                    width: 85%;
-                    height: 20px;
-                    margin: 5px 0 20px 0;
-                    border: 1px solid white;
-                    border-radius: 10px;
-                }
+            .signup-form {
+                margin: 50px 10% 0 0;
+                color: white;
+                font-size: larger;
+                background-color: rgba(155, 88, 213, 0.8);
+                width: 450px;
+                position: absolute;
+                left: 7%;
+                padding: 25px;
+                border-radius: 10px;
+            }
 
-                .signup-form h2 {
-                    color: white;
-                    margin-bottom: 20px;
-                    font-size: 120%;
-                }
+            .text-input {
+                background: transparent;
+                color: white;
+                width: 85%;
+                height: 20px;
+                margin: 5px 0 20px 0;
+                border: 1px solid white;
+                border-radius: 10px;
+            }
 
-                h2 i {
-                    font-size: 120%;
-                }
+            .signup-form h2 {
+                color: white;
+                margin-bottom: 20px;
+                font-size: 120%;
+            }
+
+            h2 i {
+                font-size: 120%;
+            }
+        }
