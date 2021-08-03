@@ -49,10 +49,6 @@ h3 {
     float: right;
 }
 
-/* clear {
-    clear: both;
-}. */
-
 #ul {
     list-style-type: none;
 }
@@ -91,7 +87,7 @@ h3 {
     letter-spacing: 4px;
     width: 500px;
     height: 100px;
-    padding: 25px 15px 5px 25px;
+    padding: 25px 0 15px 25px;
     background-color: rgba(155, 88, 213, 0.8);
     left: 20px;
     top: 50px;
@@ -143,7 +139,7 @@ footer>p {
 
 ol {
     text-transform: uppercase;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 15px;
 }
 
@@ -305,7 +301,7 @@ h2 i {
         font-size: 120%;
         font-family: 'Raleway', sans-serif;
         width: 400px;
-        height: 120px;
+        height: 100px;
         padding: 25px 15px 5px 25px;
         background-color: rgba(155, 88, 213, 0.8);
         left: 0;
@@ -370,383 +366,407 @@ h2 i {
     h2 i {
         font-size: 120%;
     }
+}
 
-    /* Medium screens - 850px and down */
-    @media screen and (max-width: 850px) {
+/* Medium screens - 850px and down */
+@media screen and (max-width: 850px) {
 
-        h1 {
-            font-family: 'Raleway', sans-serif;
-            text-transform: uppercase;
-            letter-spacing: 6px;
-            font-size: 250%;
-            margin-top: 10px;
-        }
+    h1 {
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+        font-size: 250%;
+        margin-top: 10px;
+    }
 
-        h3 {
-            font-family: 'Raleway', sans-serif;
-            text-align: left;
-            font-size: 90%;
-            letter-spacing: 0;
-            position: absolute;
-            color: #894ac5;
-            margin-top: 15px;
-        }
+    h3 {
+        font-family: 'Raleway', sans-serif;
+        text-align: left;
+        font-size: 90%;
+        letter-spacing: 0;
+        position: absolute;
+        color: #894ac5;
+        margin-top: 15px;
+    }
 
-        #subheading h3 {
-            font-family: 'Raleway', sans-serif;
-            font-weight: lighter;
-            position: relative;
-            margin: 0;
-        }
+    #subheading h3 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: lighter;
+        position: relative;
+        margin: 0;
+    }
 
-        .right li {
-            display: table-row-group;
-            text-transform: uppercase;
-            font-weight: 800;
-            font-size: 100%;
-            padding-top: 15px;
-            text-align: right;
-        }
+    .right li {
+        display: table-row-group;
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 100%;
+        padding-top: 15px;
+        text-align: right;
+    }
 
-        #subheading {
-            font-size: 130%;
-            font-family: 'Raleway', sans-serif;
-            letter-spacing: 4px;
-            width: 350px;
-            height: 110px;
-            padding: 25px 15px 5px 25px;
-            background-color: rgba(155, 88, 213, 0.8);
-            left: 0;
-        }
+    #subheading {
+        font-size: 130%;
+        font-family: 'Raleway', sans-serif;
+        letter-spacing: 4px;
+        width: 350px;
+        height: 110px;
+        padding: 25px 15px 5px 25px;
+        background-color: rgba(155, 88, 213, 0.8);
+        left: 0;
+    }
 
-        #home-image {
-            margin-top: 50px;
-            height: 900px;
-            width: 100%;
-            background: url(../css/images/hero_image_nv.jpg) no-repeat center center;
-            background-size: cover;
-            padding-top: 50px;
-            position: relative;
-        }
+    #home-image {
+        margin-top: 50px;
+        height: 900px;
+        width: 100%;
+        background: url(../css/images/hero_image_nv.jpg) no-repeat center center;
+        background-size: cover;
+        padding-top: 50px;
+        position: relative;
+    }
 
-        .text {
-            margin: 90px 39px 5px 5px;
-            text-align: left;
-            padding: 20px 10px 5px 10px;
-            width: 55%;
-            font-size: smaller;
-            position: fixed;
-        }
+    .text {
+        margin: 90px 39px 5px 5px;
+        text-align: left;
+        padding: 20px 10px 5px 10px;
+        width: 55%;
+        font-size: smaller;
+        position: fixed;
+    }
 
-        img {
-            width: 35%;
-            height: 500px;
-            padding: 55px 5px 5px 5px;
-            border-radius: 20px;
-            position: inherit;
-        }
-
-
-        .form-section {
-            clear: left;
-            background: url("./images/hands.jpg");
-            background-size: cover;
-            height: 750px;
-            padding-bottom: 50px;
-            margin-top: 100px;
-        }
-
-        .signup-form {
-            margin: 10% 10% 10% 0;
-            color: white;
-            font-size: 150%;
-            background-color: rgba(155, 88, 213, 0.8);
-            width: 550px;
-            position: absolute;
-            padding: 30px;
-            border-radius: 10px;
-
-        }
-
-        .join-button {
-            margin-top: 20px;
-            font-family: 'Montserrat';
-            border-radius: 10px;
-            padding: 10px 25px 10px 25px;
-            text-align: center;
-            font-size: 80%;
-            background-color: #6d1abb;
-            box-shadow: 0 0 4px rgb(0 0 0 / 72%);
-            color: white;
-            display: block;
-            float: right;
-        }
-
-        /* Small screens (iPad) */
-        @media screen and (max-width: 700px) {
-
-            header {
-                padding: 35px 35px;
-            }
-
-            h1 {
-                font-family: 'Raleway', sans-serif;
-                text-transform: uppercase;
-                letter-spacing: 6px;
-                font-size: 200%;
-                text-align: left;
-                color: #894ac5;
-            }
-
-            h3 {
-                font-family: 'Raleway', sans-serif;
-                text-align: left;
-                font-size: 75%;
-                color: #894ac5;
-            }
-
-            #subheading h3 {
-                font-family: 'Raleway', sans-serif;
-                position: relative;
-                letter-spacing: 2px;
-                margin: 0;
-            }
+    img {
+        width: 35%;
+        height: 500px;
+        padding: 55px 5px 5px 5px;
+        border-radius: 20px;
+        position: inherit;
+    }
 
 
-            .right li {
-                text-transform: uppercase;
-                font-weight: 800;
-                font-size: 90%;
-                margin-right: 15px;
-                margin-top: 25px;
-                text-align: right;
-            }
+    .form-section {
+        clear: left;
+        background: url("./images/hands.jpg");
+        background-size: cover;
+        height: 750px;
+        padding-bottom: 50px;
+        margin-top: 100px;
+    }
 
-            #subheading {
-                font-size: 110%;
-                font-family: 'Raleway', sans-serif;
-                width: 200px;
-                height: 100px;
-                padding: 25px 15px 5px 25px;
-                background-color: rgba(155, 88, 213, 0.8);
-                left: 0;
-            }
+    .signup-form {
+        margin: 10% 10% 10% 0;
+        color: white;
+        font-size: 150%;
+        background-color: rgba(155, 88, 213, 0.8);
+        width: 550px;
+        position: absolute;
+        padding: 30px;
+        border-radius: 10px;
 
-            #home-image {
-                margin-top: 50px;
-                height: 700px;
-                width: 100%;
-                background: url(../css/images/hero_image_nv.jpg) no-repeat center center;
-                background-size: cover;
-                padding-top: 50px;
-                position: relative;
-            }
+    }
 
-            footer>a {
-                color: white;
-                text-decoration: none;
-                padding: 5px 15px;
-                font-size: 100%;
-                letter-spacing: 35px;
-                float: right;
-            }
+    .join-button {
+        margin-top: 20px;
+        font-family: 'Montserrat';
+        border-radius: 10px;
+        padding: 10px 25px 10px 25px;
+        text-align: center;
+        font-size: 80%;
+        background-color: #6d1abb;
+        box-shadow: 0 0 4px rgb(0 0 0 / 72%);
+        color: white;
+        display: block;
+        float: right;
+    }
+}
 
-            /* .text ul {
+/* Small screens (iPad) */
+@media screen and (max-width: 700px) {
+
+    header {
+        padding: 35px 35px;
+    }
+
+    h1 {
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+        font-size: 200%;
+        text-align: left;
+        color: #894ac5;
+    }
+
+    h3 {
+        font-family: 'Raleway', sans-serif;
+        text-align: left;
+        font-size: 75%;
+        color: #894ac5;
+    }
+
+    #subheading h3 {
+        font-family: 'Raleway', sans-serif;
+        position: relative;
+        letter-spacing: 2px;
+        margin: 0;
+    }
+
+
+    .right li {
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 90%;
+        margin-right: 15px;
+        margin-top: 25px;
+        text-align: right;
+    }
+
+    #subheading {
+        font-size: 110%;
+        font-family: 'Raleway', sans-serif;
+        width: 200px;
+        height: 100px;
+        padding: 25px 15px 5px 25px;
+        background-color: rgba(155, 88, 213, 0.8);
+        left: 0;
+    }
+
+    #home-image {
+        margin-top: 50px;
+        height: 700px;
+        width: 100%;
+        background: url(../css/images/hero_image_nv.jpg) no-repeat center center;
+        background-size: cover;
+        padding-top: 50px;
+        position: relative;
+    }
+
+    footer>a {
+        color: white;
+        text-decoration: none;
+        padding: 5px 15px;
+        font-size: 100%;
+        letter-spacing: 35px;
+        float: right;
+    }
+
+    /* .text ul {
                 display: inline-block;
             } */
-            .text {
-                margin: 90px 39px 5px 5px;
-                text-align: left;
-                padding: 20px 10px 5px 10px;
-                width: 55%;
-                font-size: smaller;
-                position: relative;
-            }
+    .text {
+        margin: 90px 39px 5px 5px;
+        text-align: left;
+        padding: 20px 10px 5px 10px;
+        width: 55%;
+        font-size: smaller;
+        position: relative;
+    }
 
-            img {
-                width: 95%;
-                height: 750px;
-                padding: 5px 5px 5px 5px;
-                border-radius: 20px;
-                position: inherit;
-            }
+    img {
+        width: 95%;
+        height: 750px;
+        padding: 5px 5px 5px 5px;
+        border-radius: 20px;
+        position: inherit;
+    }
 
-            .text li {
-                text-transform: none;
-                margin-left: 15px;
-                padding-top: 10px;
-                padding-left: 10px;
-            }
+    .text li {
+        text-transform: none;
+        margin-left: 15px;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
 
-            .form-section {
-                background: url(./images/hands.jpg);
-                background-size: cover;
-                background-position: center;
-                margin-top: 120px;
-                height: 650px;
-            }
+    .form-section {
+        background: url(./images/hands.jpg);
+        background-size: cover;
+        background-position: center;
+        margin-top: 120px;
+        height: 650px;
+    }
 
-            .signup-form {
-                margin: 10%;
-                background-color: rgba(155, 88, 213, 0.8);
-                width: 450px;
-                position: absolute;
-                left: 7%;
-                padding: 25px;
-                border-radius: 10px;
-            }
+    .signup-form {
+        margin: 10%;
+        background-color: rgba(155, 88, 213, 0.8);
+        width: 450px;
+        position: absolute;
+        left: 7%;
+        padding: 25px;
+        border-radius: 10px;
+    }
 
-            .text-input {
-                background: transparent;
-                color: white;
-                width: 85%;
-                height: 20px;
-                margin: 5px 0 20px 0;
-                border: 1px solid white;
-                border-radius: 10px;
-            }
+    .text-input {
+        background: transparent;
+        color: white;
+        width: 85%;
+        height: 20px;
+        margin: 5px 0 20px 0;
+        border: 1px solid white;
+        border-radius: 10px;
+    }
 
-            .signup-form h2 {
-                color: white;
-                margin-bottom: 20px;
-                font-size: 120%;
-            }
+    .signup-form h2 {
+        color: white;
+        margin-bottom: 20px;
+        font-size: 120%;
+    }
 
-            h2 i {
-                font-size: 120%;
-            }
+    h2 i {
+        font-size: 120%;
+    }
+}
 
-            /* Small screens (iPhones) */
-            @media screen and (max-width: 577px) {
+/* Small screens (iPhones) */
+@media screen and (max-width: 577px) {
 
-                header {
-                    padding: 10px;
-                }
+    header {
+        padding: 5px;
+    }
 
-                h1 {
-                    font-family: 'Raleway', sans-serif;
-                    text-transform: uppercase;
-                    letter-spacing: 4px;
-                    font-size: 130%;
-                    margin-left: 10px;
-                    text-align: center;
-                    color: #894ac5;
-                }
+    h1 {
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: 100%;
+        margin-left: 5px;
+        text-align: left;
+        color: #894ac5;
+    }
 
-                h3 {
-                    font-family: 'Raleway', sans-serif;
-                    text-align: left;
-                    font-size: 65%;
-                    letter-spacing: 1px;
-                    color: #894ac5;
-                    margin-left: 10px;
-                }
+    h3 {
+        font-family: 'Raleway', sans-serif;
+        text-align: left;
+        font-size: 60%;
+        letter-spacing: 1px;
+        color: #894ac5;
+        margin: inherit;
+        margin-left: 15px;
+        padding: 1%;
+    }
 
-                #subheading h3 {
-                    font-family: 'Raleway', sans-serif;
-                    position: relative;
-                    letter-spacing: 2px;
-                    margin: 0;
-                }
+    .right li {
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 50%;
+        /* margin-right: 3px;
+                    margin-top: 3px; */
+        display: inline-block;
+    }
 
-                .right li {
-                    text-transform: uppercase;
-                    font-weight: 800;
-                    font-size: 65%;
-                    margin-right: 3px;
-                    margin-top: 3px;
-                }
+    /* 
+                ul {
+                    list-style-type: none;
+                    margin-bottom: 10px;
+                    padding-block-start: 10px;
+                    padding-inline-end: 10px;
+                } */
 
-                li {
-                    text-transform: none;
-                    margin-left: 2px;
-                    padding-top: 10px;
-                }
+    li {
+        text-transform: none;
+        margin-left: 5px;
+    }
 
-                #subheading {
-                    font-size: 100%;
-                    font-family: 'Raleway', sans-serif;
-                    width: 200px;
-                    height: 65px;
-                    padding: 15px 15px 5px 15px;
-                    background-color: rgba(155, 88, 213, 0.8);
-                    left: 0;
-                }
+    h3 {
+        font-family: 'Raleway', sans-serif;
+        text-align: left;
+        font-size: 60%;
+        letter-spacing: 1px;
+        color: #894ac5;
+        margin: inherit;
+        margin-left: 15px;
+        padding: 1%;
+    }
 
-                #home-image {
-                    margin-top: 50px;
-                    height: 550px;
-                    width: 100%;
-                    background: url(../css/images/hero_image_nv.jpg) no-repeat center center;
-                    background-size: cover;
-                    padding-top: 50px;
-                    position: relative;
-                }
+    #subheading h3 {
+        font-family: 'Raleway', sans-serif;
+        position: relative;
+        letter-spacing: 2px;
+        margin: 0;
+    }
 
-                footer {
-                    background-color: #6d1abb;
-                    padding: 3px;
-                    position: fixed;
-                    bottom: 0px;
-                    right: 0;
-                    width: 100%;
-                    height: 25px;
-                }
+    #subheading {
+        font-size: 100%;
+        font-family: 'Raleway', sans-serif;
+        width: 200px;
+        height: 65px;
+        padding: 15px 15px 5px 15px;
+        background-color: rgba(155, 88, 213, 0.8);
+        left: 0;
+    }
 
-                footer>a {
-                    color: white;
-                    text-decoration: none;
-                    padding: 5px 15px;
-                    font-size: 100%;
-                    letter-spacing: 5px;
-                    float: right;
-                }
+    #home-image {
+        margin-top: 60px;
+        height: 550px;
+        width: 100%;
+        background: url(../css/images/hero_image_nv.jpg) no-repeat center center;
+        background-size: cover;
+        padding-top: 50px;
+        position: relative;
+    }
 
-                footer>p {
-                    color: white;
-                    padding: 5px 15px;
-                    font-size: 55%;
-                    text-align: left;
-                }
+    footer {
+        background-color: #6d1abb;
+        padding: 3px;
+        position: fixed;
+        bottom: 0px;
+        right: 0;
+        width: 100%;
+        height: 25px;
+    }
 
-                .text {
-                    margin: px 39px 5px 5px;
-                    text-align: left;
-                    width: 90%;
-                    font-size: small;
-                }
+    footer>a {
+        color: white;
+        text-decoration: none;
+        padding: 5px 15px;
+        font-size: 100%;
+        letter-spacing: 5px;
+        float: right;
+    }
 
-                img {
-                    width: 90%;
-                    height: 400px;
-                    padding: 5px 5px 5px 5px;
-                    border-radius: 20px;
-                }
+    footer>p {
+        color: white;
+        padding: 5px 15px;
+        font-size: 55%;
+        text-align: left;
+    }
 
-                .text li {
-                    text-transform: none;
-                    margin-left: 25px;
-                    padding-top: 4px;
-                    padding-left: 10px;
-                }
+    .text {
+        margin: 80px 39px 5px 5px;
+        text-align: left;
+        width: 90%;
+        font-size: small;
+    }
 
-                .form-section {
-                    clear: both;
-                    background: url(./images/hands.jpg);
-                    background-size: cover;
-                    background-position: center;
-                    margin-top: 0;
-                    height: 600px;
-                }
+    img {
+        width: 90%;
+        height: 400px;
+        padding: 5px 5px 5px 5px;
+        border-radius: 20px;
+    }
 
-                .signup-form {
-                    color: white;
-                    font-size: smaller;
-                    background-color: rgba(155, 88, 213, 0.8);
-                    width: 70%;
-                    position: absolute;
-                    margin-top: 20%;
-                    margin-left: 1%;
-                    border-radius: 10px;
-                }
-            }
+    .text li {
+        text-transform: none;
+        margin-left: 25px;
+        padding-top: 4px;
+        padding-left: 10px;
+    }
+
+    .form-section {
+        clear: both;
+        background: url(./images/hands.jpg);
+        background-size: cover;
+        background-position: center;
+        margin-top: 0;
+        height: 600px;
+    }
+
+    .signup-form {
+        color: white;
+        font-size: smaller;
+        background-color: rgba(155, 88, 213, 0.8);
+        width: 70%;
+        position: absolute;
+        margin-top: 20%;
+        margin-left: 1%;
+        border-radius: 10px;
+    }
+}
