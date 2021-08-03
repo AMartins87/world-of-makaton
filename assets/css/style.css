@@ -150,7 +150,7 @@ li {
     padding-left: 25px;
 }
 
-img {
+.body img {
     width: 25%;
     height: 600px;
     padding: 80px 20px 20px 20px;
@@ -160,25 +160,8 @@ img {
 
 /* Abc */
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-    margin-top: 75px;
-}
-
-.column {
-    flex: 10%;
-    max-width: 10%;
-    padding: 0 4px;
-}
-
-.column img {
-    margin-top: 15px;
-    margin-left: 50px;
-    margin-bottom: 15px;
-    vertical-align: middle;
-    width: 100%;
+#alphabet {
+    margin-top: 100px;
 }
 
 /* Sign Up page */
@@ -316,7 +299,7 @@ h2 i {
         position: absolute;
     }
 
-    img {
+    .body img {
         width: 35%;
         height: 600px;
         padding: 35px 20px 20px 20px;
@@ -435,7 +418,7 @@ h2 i {
         position: fixed;
     }
 
-    img {
+    .body img {
         width: 35%;
         height: 500px;
         padding: 55px 5px 5px 5px;
@@ -443,6 +426,9 @@ h2 i {
         position: inherit;
     }
 
+    #alphabet {
+        margin: 100px 50px 50px 50px;
+    }
 
     .form-section {
         clear: left;
@@ -561,7 +547,7 @@ h2 i {
         position: relative;
     }
 
-    img {
+    .body img {
         width: 95%;
         height: 750px;
         padding: 5px 5px 5px 5px;
@@ -646,19 +632,16 @@ h2 i {
     .right li {
         text-transform: uppercase;
         font-weight: 800;
-        font-size: 50%;
-        /* margin-right: 3px;
-                    margin-top: 3px; */
-        display: inline-block;
+        font-size: 60%;
     }
 
-    /* 
-                ul {
-                    list-style-type: none;
-                    margin-bottom: 10px;
-                    padding-block-start: 10px;
-                    padding-inline-end: 10px;
-                } */
+
+    ul {
+        list-style-type: none;
+        margin-bottom: 10px;
+        padding-block-start: 10px;
+        padding-inline-end: 10px;
+    }
 
     li {
         text-transform: none;
@@ -668,12 +651,11 @@ h2 i {
     h3 {
         font-family: 'Raleway', sans-serif;
         text-align: left;
-        font-size: 60%;
+        font-size: 65%;
         letter-spacing: 1px;
         color: #894ac5;
-        margin: inherit;
+        margin-top: 15px;
         margin-left: 15px;
-        padding: 1%;
     }
 
     #subheading h3 {
@@ -695,11 +677,11 @@ h2 i {
 
     #home-image {
         margin-top: 60px;
-        height: 550px;
+        height: 650px;
         width: 100%;
         background: url(../css/images/hero_image_nv.jpg) no-repeat center center;
         background-size: cover;
-        padding-top: 50px;
+        /* padding-top: 50px; */
         position: relative;
     }
 
@@ -736,7 +718,7 @@ h2 i {
         font-size: small;
     }
 
-    img {
+    .body img {
         width: 90%;
         height: 400px;
         padding: 5px 5px 5px 5px;
