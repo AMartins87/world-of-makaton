@@ -51,6 +51,7 @@ h3 {
 
 #ul {
     list-style-type: none;
+    background-color: none;
 }
 
 .right li {
@@ -64,11 +65,17 @@ h3 {
 
 .right a {
     text-decoration: none;
-    color: inherit
+    color: inherit;
 }
 
 .right a:hover {
-    border-bottom: double #9972be;
+    background-color: rgba(179, 128, 223, 0.4);
+    border-radius: 5px;
+}
+
+.active {
+    background-color: rgba(179, 128, 223, 0.4);
+    border-radius: 5px;
 }
 
 #home-image {
@@ -92,6 +99,7 @@ h3 {
     left: 20px;
     top: 50px;
 }
+
 
 /* footer and media links */
 
@@ -266,6 +274,16 @@ h2 i {
         text-align: right;
     }
 
+    .right a:hover {
+        background-color: rgba(179, 128, 223, 0.4);
+        border-radius: 5px;
+    }
+
+    .active {
+        background-color: rgba(179, 128, 223, 0.4);
+        border-radius: 5px;
+    }
+
     #home-image {
         margin-top: 100px;
         height: 1100px;
@@ -388,6 +406,16 @@ h2 i {
         text-align: right;
     }
 
+    .right a:hover {
+        background-color: rgba(179, 128, 223, 0.4);
+        border-radius: 5px;
+    }
+
+    .active {
+        background-color: rgba(179, 128, 223, 0.4);
+        border-radius: 5px;
+    }
+
     #subheading {
         font-size: 130%;
         font-family: 'Raleway', sans-serif;
@@ -504,6 +532,16 @@ h2 i {
         margin-right: 15px;
         margin-top: 25px;
         text-align: right;
+    }
+
+    .right a:hover {
+        background-color: rgba(179, 128, 223, 0.4);
+        border-radius: 5px;
+    }
+
+    .active {
+        background-color: rgba(179, 128, 223, 0.4);
+        border-radius: 5px;
     }
 
     #subheading {
@@ -641,6 +679,16 @@ h2 i {
         margin-bottom: 10px;
         padding-block-start: 10px;
         padding-inline-end: 10px;
+    }
+
+    .right a:hover {
+        background-color: rgba(179, 128, 223, 0.4);
+        border-radius: 5px;
+    }
+
+    .active {
+        background-color: rgba(179, 128, 223, 0.4);
+        border-radius: 5px;
     }
 
     li {

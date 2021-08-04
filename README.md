@@ -1,7 +1,11 @@
-# world-of-makaton
-A visual way to develop communication skills
+## **WORLD OF MAKATON**
 
-<strong>INTRO TO THE WEBSITE</strong>
+The purpose of the World of Makaton website is to introduce more people to this wonderful and easy sign language which supports children and adults who may have learning difficulties or delays, to communicate better.
+
+
+![Mock up image](wireframes/mockup.JPG)
+
+<h1><strong>INTRO TO THE WEBSITE</strong></h1>
 
 <strong>FEATURES</strong>
 
@@ -10,7 +14,7 @@ A visual way to develop communication skills
     > Font and color compliment the overall look of the website and is consistent throughout on each page
     > The navigation clearly states the name of the website and where the user can find all the necessary information
 
-    SCREENSHOT
+</workspace/world-of-makaton/assets/css/readme/Home page screenshot - responsiveness.JPG>
 
 - Header:
     > The header shows the name of the website, using the a chosen color of purple shade (#894ac5). 
