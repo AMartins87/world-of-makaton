@@ -1,20 +1,23 @@
 ## **WORLD OF MAKATON**
 
-The purpose of the World of Makaton website is to introduce more people to this wonderful and easy sign language which supports children and adults who may have learning difficulties or delays, to communicate better.
+The purpose of the World of Makaton website is to introduce more people to this wonderful and easy sign language which supports children and adults who may have learning difficulties and/or delays, to communicate better.
+
+World of Makaton gives the user just enough information to get to know this form of communication and it gives some external pointers if they would like to know more about the background of it. 
 
 
 ![Mock up image](wireframes/mockup.JPG)
 
-<h1><strong>INTRO TO THE WEBSITE</strong></h1>
 
-<strong>FEATURES</strong>
+<strong>FEATURES:</strong>
+<a></a>
 
 - Navigation: 
-    > Navigation links are on each page top right: Home, About, Alphabet and Newsletter which are linked to other pages on the website
-    > Font and color compliment the overall look of the website and is consistent throughout on each page
-    > The navigation clearly states the name of the website and where the user can find all the necessary information
+    - Navigation links are on each page in the top right corner of every screen size to take the user to a different page of the website.
+    - Sections of the navigation bar are: Home, About, ABC, and Sign Up.
+    - Font and color compliment the overall look of the website and is consistent throughout on each .
+    - It allows the user to easily navigate from page to page across all devices.
 
-</workspace/world-of-makaton/assets/css/readme/Home page screenshot - responsiveness.JPG>
+![Navigation bar image](wireframes/nav_bar.JPG)
 
 - Header:
     > The header shows the name of the website, using the a chosen color of purple shade (#894ac5). 
