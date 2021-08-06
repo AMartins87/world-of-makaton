@@ -8,10 +8,11 @@ World of Makaton gives the user just enough information to get to know this form
 ![Mock up image](wireframes/mockup.JPG)
 
 
-<strong>FEATURES:</strong>
+<h2><strong>FEATURES:</strong></h2>
 <a></a>
 
 - Navigation: 
+    - Each page has a title > Home page - World of Makaton; About - About Makaton; ABC - ABC ... Alphabet; Sign Up - Sign Up.
     - Navigation links are on each page in the top right corner of every screen size to take the user to a different page of the website.
     - Sections of the navigation bar are: Home, About, ABC, and Sign Up.
     - Font and color compliment the overall look of the website and is consistent throughout on each .
@@ -19,9 +20,9 @@ World of Makaton gives the user just enough information to get to know this form
 
 ![Navigation bar image](wireframes/nav_bar.JPG)
 
-- Header:
-    > The header shows the name of the website, using the a chosen color of purple shade (#894ac5). 
-    > The header's tagline gives the user clear information about what the website is.
+- Home page image:
+    - The header shows the name of the website, using the a chosen color of purple shade (#894ac5). 
+    - The header's tagline gives the user clear information about what the website is.
 
     SCREENSHOT
 
