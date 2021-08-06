@@ -376,8 +376,8 @@ h2 i {
         font-size: 250%;
     }
 
-    h3 {
-        font-size: 150%;
+    .left>h3 {
+        font-size: 120%;
         letter-spacing: 0;
         position: absolute;
         margin-top: 15px;
