@@ -164,7 +164,7 @@ ol {
 
 .text li {
     text-transform: none;
-    font-size: large;
+    font-size: 110%;
     margin-left: 25px;
     padding-top: 10px;
     padding-left: 25px;
@@ -233,7 +233,7 @@ ol {
     height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid white;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 
 .text-input:hover {
@@ -259,12 +259,23 @@ ol {
     color: #6d1abb;
 }
 
-#materials,
+/* #materials,
 #video,
 #workshops {
     display: list-item;
     text-align: center;
     vertical-align: bottom;
+} */
+
+/* Form submission page - Thank you page */
+
+#thankyou {
+    margin: 3% 5%;
+    font-size: x-large;
+}
+
+.thank_you {
+    margin: 0 10%;
 }
 
 h2 i {
@@ -363,11 +374,10 @@ h2 i {
 
     h1 {
         font-size: 250%;
-
     }
 
     h3 {
-        font-size: 100%;
+        font-size: 150%;
         letter-spacing: 0;
         position: absolute;
         margin-top: 15px;
@@ -414,7 +424,7 @@ h2 i {
         margin: 15% 5% 5%;
         padding: 1%;
         width: auto;
-        font-size: medium;
+        font-size: 110%;
         position: initial;
     }
 
@@ -571,8 +581,7 @@ h2 i {
         h1 {
             letter-spacing: 3px;
             font-size: 130%;
-            margin-top: 10px;
-            margin-left: 25px;
+            margin-left: 5px;
             text-align: left;
         }
 
@@ -585,8 +594,19 @@ h2 i {
             margin-left: 15px;
         }
 
+        .left {
+            margin: 0;
+            margin-top: 25px;
+            margin-left: 20px;
+            width: 50%;
+        }
+
+        .right {
+            margin: 10px;
+        }
+
         .right li {
-            font-size: 100%;
+            font-size: 90%;
             text-transform: uppercase;
             margin-left: 5px;
         }
@@ -606,26 +626,17 @@ h2 i {
             border-radius: 5px;
         }
 
-        #subheading h3 {
+        #subheading>h3 {
             position: relative;
-            letter-spacing: 2px;
+            font-size: 80%;
+            letter-spacing: 0;
             margin: 0;
-        }
-
-        .left {
-            margin: 0;
-            margin-top: 35px;
-        }
-
-        .right {
-            margin: 5px;
         }
 
         #subheading {
-            font-size: 110%;
-            width: 200px;
-            height: 65px;
-            padding: 15px 15px 5px 15px;
+            width: 250px;
+            height: auto;
+            padding: 15px 15px 10px;
             left: 0;
         }
 
@@ -650,7 +661,7 @@ h2 i {
         }
 
         .text {
-            margin: 150px 40px 5px 5px;
+            margin: 90px 5px 5px;
             width: 90%;
             font-size: small;
         }

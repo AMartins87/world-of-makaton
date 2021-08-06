@@ -36,7 +36,7 @@
     </header>
 
     <section class="form-section">
-        <form method="post" action="https://formdump.codeinstitute.net/" class="signup-form">
+        <form method="get" class="signup-form" action="thank_you_page.html" target="_blanket">
             <h2>Sign up to our newsletter <i class="fas fa-sign-language"></i></h2>
 
             <label for="name">Name</label>
@@ -45,7 +45,19 @@
             <label for="email">Email</label>
             <input id="email" type="email" name="email_address" class="text-input" required>
 
-            <h5>Please select at least one item</h5>
+            <form action="thank_you_page.php">
+                <label for="cars">What would you like to receive information about:</label>
+                <select name="cars" id="cars">
+                    <option value="">Please Select</option>
+                    <option value="materials">Emails & Video Tutorials</option>
+                    <option value="workshop">Workshops</option>
+                    <option value="all">All of the above</option>
+                </select>
+                <br><br>
+                <input type="submit" class="join-button" value="Send">
+            </form>
+
+            <!-- <h5>Please select at least one item</h5>
             <br>
             <input id="materials" type="checkbox" style="float: left; margin-left: 10px; margin-right: 7px;" name="signup_requirements" value="road">
             <label for="materials" style="float: left">Text materials</label>
@@ -56,7 +68,7 @@
             <input id="workshops" type="checkbox" style="float: left; margin-left: 10px; margin-right: 7px;" name="signup_requirements" value="both">
             <label for="workshops" style="float: left">Workshops</label>
 
-            <input type="submit" class="join-button" value="Send">
+            <input type="submit" class="join-button" value="Send"> -->
         </form>
 
     </section>
