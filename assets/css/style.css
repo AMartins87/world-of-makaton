@@ -148,6 +148,10 @@ footer>p {
     position: absolute;
 }
 
+.extlink a:hover {
+    cursor: pointer;
+}
+
 .container {
     font-size: large;
 }
@@ -259,14 +263,6 @@ ol {
     color: #6d1abb;
 }
 
-/* #materials,
-#video,
-#workshops {
-    display: list-item;
-    text-align: center;
-    vertical-align: bottom;
-} */
-
 /* Form submission page - Thank you page */
 
 #thankyou {
@@ -316,7 +312,7 @@ h2 i {
         font-size: 100%;
         width: 600px;
         height: auto;
-        padding: 30px 15px 25px 25px;
+        padding: 30px;
         left: 0;
     }
 
@@ -325,22 +321,26 @@ h2 i {
     }
 
     .text {
-        padding: 20px 20px 5px 25px;
+        padding: 40px 20px 5px 25px;
+        font-size: 120%;
         width: auto;
+        position: relative;
+    }
+
+    .body {
+        max-height: 40vh;
     }
 
     .body img {
         width: auto;
         height: 600px;
-        padding: inherit;
-        margin: 55% 30% 0;
-        border-radius: 20px;
-        position: relative;
+        padding: 2% 28vw;
+        border-radius: 0;
     }
 
     .form-section {
         clear: both;
-        height: 850px;
+        height: 950px;
     }
 
     .form-section label {
@@ -350,7 +350,7 @@ h2 i {
 
     .signup-form {
         margin: 15% 0 0 10%;
-        font-size: 130%;
+        font-size: 150%;
         width: 550px;
         padding: 35px;
     }
@@ -360,7 +360,7 @@ h2 i {
     }
 
     .text-input {
-        width: 85%;
+        width: 90%;
         height: 20px;
     }
 
@@ -387,11 +387,6 @@ h2 i {
         margin: 5px;
     }
 
-    #subheading h3 {
-        position: relative;
-        margin: 0;
-    }
-
     .right li {
         font-size: 130%;
         padding-top: 15px;
@@ -405,13 +400,19 @@ h2 i {
         border-radius: 5px;
     }
 
+    #subheading h3 {
+        position: relative;
+        font-size: 110%;
+        margin: 0;
+    }
+
     #subheading {
         font-size: 130%;
         font-family: 'Raleway', sans-serif;
         letter-spacing: 4px;
         width: 350px;
         height: 110px;
-        padding: 25px 15px 5px 25px;
+        padding: 25px;
         background-color: rgba(155, 88, 213, 0.8);
         left: 0;
     }
@@ -482,11 +483,6 @@ h2 i {
             margin: 0;
         }
 
-        #subheading>h3 {
-            display: contents;
-        }
-
-
         .right li {
             font-size: 125%;
         }
@@ -503,6 +499,9 @@ h2 i {
             margin-top: 50px;
         }
 
+        #subheading>h3 {
+            display: contents;
+        }
 
         #subheading {
             font-size: 110%;
@@ -641,7 +640,7 @@ h2 i {
         }
 
         #home-image {
-            margin-top: 60px;
+            margin-top: 80px;
             height: 650px;
             /* padding-top: 50px; */
         }
