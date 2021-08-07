@@ -133,10 +133,10 @@ footer>p {
 
 /* About page */
 
-.container {
+/* .container {
     margin-right: 5px;
     margin-left: 5px;
-}
+} */
 
 .text {
     margin: 15% 2% 5% 2%;
@@ -620,8 +620,13 @@ h2 i {
         }
 
         .left {
-            margin-top: 20px;
+            margin-top: 70px;
             margin-left: 20px;
+        }
+
+        .right {
+            position: fixed;
+            margin: 0;
         }
 
 
@@ -631,11 +636,11 @@ h2 i {
             display: contents;
         }
 
-        .right ul {
+        /* .right ul {
             margin-bottom: 10px;
             padding-block-start: 10px;
             padding-inline-end: 15px;
-        }
+        } */
 
         .right a:hover {
             border-radius: 5px;
@@ -686,9 +691,9 @@ h2 i {
         }
 
         .text {
-            margin: 80px 5px 5px;
             width: 80%;
-            font-size: smaller;
+            margin-top: 20%;
+            margin-left: -10px;
         }
 
         .text li {
