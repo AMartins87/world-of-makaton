@@ -84,6 +84,7 @@ ul {
 .right a:hover {
     background-color: rgba(179, 128, 223, 0.4);
     border-radius: 3px;
+    cursor: pointer;
 }
 
 .active {
@@ -254,6 +255,7 @@ ol {
     display: block;
     float: right;
     font-family: 'Montserrat';
+    cursor: pointer;
 }
 
 .join-button:hover {
@@ -618,34 +620,29 @@ h2 i {
         }
 
         .left {
-            margin: 0;
-            margin-top: 25px;
+            margin-top: 20px;
             margin-left: 20px;
-            width: 50%;
         }
 
-        .right {
-            margin: 10px;
-        }
 
         .right li {
             font-size: 90%;
             text-transform: uppercase;
-            margin-left: 5px;
+            display: contents;
         }
 
-        ul {
+        .right ul {
             margin-bottom: 10px;
             padding-block-start: 10px;
-            padding-inline-end: 10px;
+            padding-inline-end: 15px;
         }
 
         .right a:hover {
             border-radius: 5px;
         }
 
-        a {
-            padding: 3px;
+        .right a {
+            padding: 10px;
         }
 
         .active {
