@@ -27,7 +27,7 @@ h1 {
     color: #894ac5;
 }
 
-h3 {
+h2 {
     font-family: 'Raleway', sans-serif;
     text-align: left;
     font-size: 200%;
@@ -35,10 +35,20 @@ h3 {
     color: #894ac5;
 }
 
-#subheading h3 {
+h3 {
     font-family: 'Raleway', sans-serif;
+    font-size: 200%;
     font-weight: lighter;
     color: white;
+    background-color: rgba(155, 88, 213, 0.8);
+    border-radius: 5px;
+    text-align: left;
+    letter-spacing: 4px;
+    width: 600px;
+    height: auto;
+    padding: 25px;
+    left: 20px;
+    top: 50px;
 }
 
 .left {
@@ -61,6 +71,7 @@ ul {
     text-transform: uppercase;
     font-weight: 800;
     font-size: 200%;
+    padding: 48px;
     margin-top: 25px;
     text-align: right;
 }
@@ -82,27 +93,13 @@ ul {
 
 #home-image {
     margin-top: 150px;
-    height: 1200px;
+    height: 1500px;
     width: 100%;
-    background: url(../css/images/hero_image_nv.jpg) no-repeat center center;
+    background: url(../css/images/hero_image.jpg) no-repeat center center;
     background-size: cover;
     padding-top: 50px;
     position: relative;
 }
-
-#subheading {
-    font-size: 100%;
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: 4px;
-    width: 600px;
-    height: auto;
-    padding: 25px;
-    background-color: rgba(155, 88, 213, 0.8);
-    border-radius: 5px;
-    left: 20px;
-    top: 50px;
-}
-
 
 /* footer and media links */
 
@@ -145,7 +142,7 @@ footer>p {
     text-align: left;
     padding: 10px 10px 10px 10px;
     width: 60%;
-    position: absolute;
+    position: relative;
 }
 
 .extlink a:hover {
@@ -177,11 +174,12 @@ ol {
 .body img {
     width: 25%;
     height: auto;
-    padding: 15% 1% 5% 1%;
-    border-radius: 100px;
-    position: relative;
-    left: 10px;
-    bottom: 50px;
+    position: absolute;
+    top: 290px;
+    right: 100px;
+    border: 0.5px ridge #6d1abb;
+    display: block;
+    border-radius: 50px;
 }
 
 /* Abc */
@@ -285,13 +283,17 @@ h2 i {
 @media screen and (max-width: 1200px) {
 
     h1 {
-        font-size: 300%;
+        font-size: 250%;
     }
 
-    h3 {
+    h2 {
         text-align: justify;
         font-size: 140%;
         letter-spacing: 0;
+    }
+
+    .left {
+        margin: 45px;
     }
 
     .right li {
@@ -303,17 +305,14 @@ h2 i {
         height: 1100px;
     }
 
-    #subheading h3 {
-        position: relative;
-        margin: 0;
-    }
-
-    #subheading {
-        font-size: 100%;
+    h3 {
+        font-size: 150%;
         width: 600px;
         height: auto;
         padding: 30px;
         left: 0;
+        position: relative;
+        margin: 0;
     }
 
     footer>a {
@@ -323,19 +322,31 @@ h2 i {
     .text {
         padding: 40px 20px 5px 25px;
         font-size: 120%;
-        width: auto;
-        position: relative;
+        width: 50%;
+        position: absolute;
     }
 
     .body {
         max-height: 40vh;
     }
 
+    ol {
+        padding-bottom: 50px;
+    }
+
     .body img {
-        width: auto;
+        /* width: auto;
         height: 600px;
-        padding: 2% 28vw;
-        border-radius: 0;
+        padding: 2% 28vw; */
+
+        width: 35%;
+        height: auto;
+        position: absolute;
+        top: 290px;
+        right: 50px;
+        border: 0.5px ridge #6d1abb;
+        display: block;
+        border-radius: 50px;
     }
 
     .form-section {
@@ -373,22 +384,44 @@ h2 i {
 @media screen and (max-width: 850px) {
 
     h1 {
-        font-size: 250%;
+        font-size: 225%;
     }
 
-    .left>h3 {
+    .left>h2 {
         font-size: 120%;
         letter-spacing: 0;
         position: absolute;
         margin-top: 15px;
     }
 
+    h3 {
+        position: relative;
+        margin: 0;
+        font-size: 130%;
+        letter-spacing: 4px;
+        width: 350px;
+        height: 110px;
+        padding: auto;
+        top: 0;
+        left: 0;
+    }
+
     .left {
-        margin: 5px;
+        margin: 25px;
+    }
+
+    .right {
+        margin: 0;
+    }
+
+    a {
+        /* margin: 5px; */
+        word-spacing: 5px;
+        padding: 5px;
     }
 
     .right li {
-        font-size: 130%;
+        font-size: 135%;
         padding-top: 15px;
     }
 
@@ -400,23 +433,6 @@ h2 i {
         border-radius: 5px;
     }
 
-    #subheading h3 {
-        position: relative;
-        font-size: 110%;
-        margin: 0;
-    }
-
-    #subheading {
-        font-size: 130%;
-        font-family: 'Raleway', sans-serif;
-        letter-spacing: 4px;
-        width: 350px;
-        height: 110px;
-        padding: 25px;
-        background-color: rgba(155, 88, 213, 0.8);
-        left: 0;
-    }
-
     #home-image {
         margin-top: 12%;
     }
@@ -424,16 +440,20 @@ h2 i {
     .text {
         margin: 15% 5% 5%;
         padding: 1%;
-        width: auto;
+        width: 50%;
         font-size: 110%;
-        position: initial;
+        position: absolute;
     }
 
     .body img {
-        width: auto;
+        width: 35%;
         height: auto;
-        padding: 5% 20%;
-        border-radius: 20px;
+        position: absolute;
+        top: 290px;
+        right: 50px;
+        border: 0.5px ridge #6d1abb;
+        display: block;
+        border-radius: 50px;
     }
 
     #alphabet {
@@ -471,7 +491,7 @@ h2 i {
             text-align: left;
         }
 
-        h3 {
+        h2 {
             font-size: 110%;
         }
 
@@ -499,21 +519,17 @@ h2 i {
             margin-top: 50px;
         }
 
-        #subheading>h3 {
+        h3 {
             display: contents;
-        }
-
-        #subheading {
             font-size: 110%;
             width: 350px;
             height: 90px;
             padding: 25px 15px 5px 25px;
-
         }
 
         footer>a {
-            font-size: 100%;
-            letter-spacing: 35px;
+            font-size: 90%;
+            letter-spacing: 25px;
         }
 
         .container {
@@ -522,17 +538,25 @@ h2 i {
         }
 
         .text {
-            margin: 10% 10% 5%;
-            width: 80%;
+            margin: 10% 5% 5% 0;
+            width: fit-content;
             font-size: smaller;
-            position: relative;
+            position: absolute;
         }
 
         .body img {
+            width: 400px;
+            position: absolute;
+            bottom: 20px;
+            left: 100px;
+            top: 650px;
+        }
+
+        .body {
+            margin: auto;
             width: auto;
-            height: 600px;
-            padding: 2% 20% 10%;
-            border-radius: 20px;
+            height: 300px;
+            position: relative;
         }
 
         .text li {
@@ -584,7 +608,7 @@ h2 i {
             text-align: left;
         }
 
-        h3 {
+        h2 {
             font-size: 120%;
             display: none;
             margin: 0;
@@ -610,7 +634,6 @@ h2 i {
             margin-left: 5px;
         }
 
-
         ul {
             margin-bottom: 10px;
             padding-block-start: 10px;
@@ -621,26 +644,32 @@ h2 i {
             border-radius: 5px;
         }
 
+        a {
+            padding: 3px;
+        }
+
         .active {
             border-radius: 5px;
         }
 
-        #subheading>h3 {
-            position: relative;
-            font-size: 80%;
+        h3 {
+            font-size: 100%;
             letter-spacing: 0;
-            margin: 0;
+            padding: 25px;
+            left: 20px;
+            top: 50px;
         }
 
         #subheading {
+            background-color: rgba(155, 88, 213, 0.8);
             width: 250px;
+            padding: 15px;
             height: auto;
-            padding: 15px 15px 10px;
-            left: 0;
+            border-radius: 5px;
         }
 
         #home-image {
-            margin-top: 80px;
+            margin-top: 90px;
             height: 650px;
             /* padding-top: 50px; */
         }
@@ -660,9 +689,9 @@ h2 i {
         }
 
         .text {
-            margin: 90px 5px 5px;
-            width: 90%;
-            font-size: small;
+            margin: 80px 5px 5px;
+            width: 80%;
+            font-size: smaller;
         }
 
         .text li {
@@ -672,11 +701,7 @@ h2 i {
         }
 
         .body img {
-            width: auto;
-            height: 400px;
-            position: inherit;
-            padding: 0;
-            border-radius: 70px;
+            display: none;
         }
 
         #alphabet {
