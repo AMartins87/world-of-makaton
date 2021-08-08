@@ -99,7 +99,7 @@ ul {
     background: url(../css/images/hero_image.jpg) no-repeat center center;
     background-size: cover;
     padding-top: 50px;
-    position: relative;
+   /* position: fixed; */
 }
 
 /* footer and media links */
@@ -625,8 +625,14 @@ h2 i {
         }
 
         .right {
+            width: 100%;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+            background-color: #6d1abb;
+            color: white;
+            text-align: center;
             position: fixed;
-            margin: 0;
         }
 
 
@@ -636,14 +642,9 @@ h2 i {
             display: contents;
         }
 
-        /* .right ul {
-            margin-bottom: 10px;
-            padding-block-start: 10px;
-            padding-inline-end: 15px;
-        } */
-
         .right a:hover {
             border-radius: 5px;
+            background-color: crimson;
         }
 
         .right a {
@@ -652,6 +653,7 @@ h2 i {
 
         .active {
             border-radius: 5px;
+            background-color: crimson;
         }
 
         h3 {
@@ -673,7 +675,6 @@ h2 i {
         #home-image {
             margin-top: 90px;
             height: 650px;
-            /* padding-top: 50px; */
         }
 
         footer {
@@ -689,12 +690,25 @@ h2 i {
             padding: 5px 15px;
             font-size: 55%;
         }
+        
+        .body {
+        margin: 0;
+        width: 0;
+        height: 0;
+        }
 
         .text {
+            width: 95%;
+            margin-top: 25%;
+            margin-left: 10px;
+            position: static;
+        }
+
+        /* .text {
             width: 80%;
             margin-top: 20%;
             margin-left: -10px;
-        }
+        } */
 
         .text li {
             padding-top: 4px;
