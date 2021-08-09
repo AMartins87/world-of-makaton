@@ -12,7 +12,7 @@ body {
     color: #6d1abb;
 }
 
-/* headings and logo */
+/* Headings and logo */
 
 h1 {
     font-family: 'Raleway', sans-serif;
@@ -72,6 +72,7 @@ h1 {
     text-align: center;
     position: fixed;
 }
+
 .right li {
     font-size: 175%;
     text-transform: uppercase;
@@ -120,7 +121,7 @@ h3 {
     top: 50px;
 }
 
-/* footer and media links */
+/* Footer and media links */
 
 footer {
     background-color: #6d1abb;
@@ -139,7 +140,6 @@ footer>a {
     font-size: 150%;
     letter-spacing: 50px;
     float: right;
-
 }
 
 footer>p {
@@ -157,10 +157,6 @@ h2 {
     font-size: 200%;
     color: #894ac5;
 }
-
-/* .container {
-    font-size: large;
-} */
 
 .text {
     text-align: left;
@@ -204,7 +200,8 @@ ol {
 .extlink a:hover {
     cursor: pointer;
 }
-/* Abc */
+
+/* Abc page */
 
 #alphabet {
     margin: 50px 50px;
@@ -217,9 +214,8 @@ ol {
     border-radius: 20px;
 }
 
-/* Sign Up page */
+/* Sign Up page - form */
 
-/* Form */
 
 .form-section {
     clear: left;
@@ -285,7 +281,7 @@ ol {
     color: #6d1abb;
 }
 
-/* Form submission page - Thank you page */
+/* Form submission afterpage - Thank you page */
 
 #thankyou {
     margin: 3% 5%;
@@ -340,6 +336,7 @@ h2 i {
         font-size: 140%;
         letter-spacing: 0;
     }
+
     .text {
         font-size: 120%;
     }
@@ -432,203 +429,199 @@ h2 i {
         font-size: 80%;
         box-shadow: 0 0 4px rgba(0, 0, 0, 0.719);
     }
+}
 
     /* Smaller screens */
     @media screen and (max-width: 700px) {
 
-        h1 {
-            font-size: 200%;
-        }
-
-        .right {
-            width: 100%;
-            height: 30px;
-            padding-top: 10px;
-            top: 0;
-            left: 0;
-            overflow: hidden;
-            background-color: #6d1abb;
-            color: white;
-            text-align: center;
-            position: fixed;
-        }
-
-        .right li {
-            font-size: 120%;
-                  }
-
-            .right a {
-                padding: 30px;
-                    }
-
-        #home-image {
-            margin-top: 1px;       
-        }
-
-        h3 {
-            font-size: 110%;
-            width: 300px;
-            height: 100px;
-            padding: 25px;
-            letter-spacing: 2px;
-
-        }
-        /* #subheading {
-            display: contents;
-        } */
-
-        footer>a {
-            font-size: 90%;
-            padding-top: 10px;
-            letter-spacing: 25px;
-        }
-
-        footer>p {
-            font-size: 80%;
-        }
-
-        h2 {
-            font-size: 110%;
-        }
-       
-        .text {
-            font-size: 100%;
-        }
-
-        .text h2 {
-            font-size: 120%;
-        }
-
-        .body img {
-            width: 75%;
-            height: 75%;
-        }
-
-        #alphabet {
-            margin: 150px 3.5% 4;
-        }
-
-        .form-section {
-            margin-top: 20px;
-        }
-
-        .signup-form {
-            margin: 10%;
-            width: 450px;
-            left: 7%;
-        }
-
-        .signup-form h2 {
-            font-size: 120%;
-        }
-
-        .text-input {
-            width: 85%;
-            height: 20px;
-        }
-
-        h2 i {
-            font-size: 120%;
-        }
+    h1 {
+        font-size: 200%;
     }
 
-    /* Small screens (iPhones) */
+    .right {
+        width: 100%;
+        height: 30px;
+        padding-top: 10px;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        background-color: #6d1abb;
+        color: white;
+        text-align: center;
+        position: fixed;
+    }
+
+    .right li {
+        font-size: 120%;
+    }
+
+    .right a {
+        padding: 30px;
+    }
+
+    #home-image {
+        margin-top: 1px;       
+    }
+
+    h3 {
+        font-size: 110%;
+        width: 300px;
+        height: 100px;
+        padding: 25px;
+        letter-spacing: 2px;
+    }
+    
+    footer>a {
+        font-size: 90%;
+        padding-top: 10px;
+        letter-spacing: 25px;
+    }
+
+    footer>p {
+        font-size: 80%;
+    }
+
+    h2 {
+        font-size: 110%;
+    }
+       
+    .text {
+        font-size: 100%;
+    }
+
+    .text h2 {
+        font-size: 120%;
+    }
+
+    .body img {
+        width: 75%;
+        height: 75%;
+    }
+
+    #alphabet {
+        margin: 150px 3.5%;
+    }
+
+    .form-section {
+        margin-top: 20px;
+    }
+
+    .signup-form {
+        margin: 10%;
+        width: 450px;
+        left: 7%;
+    }
+
+    .signup-form h2 {
+        font-size: 120%;
+    }
+
+    .text-input {
+        width: 85%;
+        height: 20px;
+    }
+
+    h2 i {
+        font-size: 120%;
+    }
+}
+
+ /* Small screens (iPhones) */
     @media screen and (max-width: 577px) {
 
-        h1 {
-            font-size: 140%;
-            letter-spacing: 1px;
-            padding-top: 10px;
-            text-align: center;
-            margin: 10px 10px;
-        }
+    h1 {
+        font-size: 140%;
+        letter-spacing: 1px;
+        padding-top: 10px;
+        text-align: center;
+        margin: 10px 10px;
+    }
 
-        .left {
-            margin-top: 50px;
-            margin-left: 1px;
-        }
+    .left {
+        margin-top: 50px;
+        margin-left: 1px;
+    }
 
-        .right {
-            width: 100%;
-            height: 30px;
-            padding-top: 10px;
-            top: 0;
-            left: 0;
-            overflow: hidden;
-            background-color: #6d1abb;
-            color: white;
-            text-align: center;
-            position: fixed;
-        }
+    .right {
+        width: 100%;
+        height: 30px;
+        padding-top: 10px;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        background-color: #6d1abb;
+        color: white;
+        text-align: center;
+        position: fixed;
+    }
 
-        .right li {
-            font-size: 100%;
-            text-transform: uppercase;
-            display: contents;
-        }
+    .right li {
+        font-size: 100%;
+        text-transform: uppercase;
+        display: contents;
+    }
 
-        .right a {
-            padding: 10px;
-        }
+    .right a {
+        padding: 10px;
+    }
 
-        #home-image {
-            width: 100%;
-            height: 650px;
-        }
+    #home-image {
+        width: 100%;
+        height: 650px;
+    }
 
-        h3 {
-            font-size: 100%;
-            width: 200px;
-            height: auto;
-            padding: 15px;
-            letter-spacing: 1px;
-        }
+    h3 {
+        font-size: 100%;
+        width: 200px;
+        height: auto;
+        padding: 15px;
+        letter-spacing: 1px;
+    }
         
-        footer {
-            height: 25px;
-        }
+    footer {
+        height: 25px;
+    }
 
-        footer>a {
-            font-size: 100%;
-            padding-top: 5px;
-            letter-spacing: 5px;
-        }
+    footer>a {
+        font-size: 100%;
+        padding-top: 5px;
+        letter-spacing: 5px;
+    }
 
-        footer>p {
-            padding: 5px 15px;
-            font-size: 55%;
-        }
+    footer>p {
+        padding: 5px 15px;
+        font-size: 55%;
+    }
         
-        h2 {
-            font-size: 100%;
-           
-        }
+    h2 {
+        font-size: 100%;
+    }
   
-        .text li {
-            padding-top: 4px;
-            padding-left: 10px;
-            font-size: inherit;
+    .text li {
+        padding-top: 4px;
+        padding-left: 10px;
+        font-size: inherit;
+    }
+
+    ol {
+        margin-left: 5px;
+    }
+
+    .form-section {
+        clear: both;
+        background-position: center;
+        margin-top: 0;
+        height: 600px;
+    }
+
+    .signup-form {
+        font-size: smaller;
+        width: 70%;
+        margin-top: 20%;
+        margin-left: 1%;
         }
 
-        ol {
-            margin-left: 5px;
-        }
-
-        .form-section {
-            clear: both;
-            background-position: center;
-            margin-top: 0;
-            height: 600px;
-        }
-
-        .signup-form {
-            font-size: smaller;
-            width: 70%;
-            margin-top: 20%;
-            margin-left: 1%;
-        }
-
-        .join-button {
-            font-size: 90%;
+    .join-button {
+        font-size: 90%;
     }
 }

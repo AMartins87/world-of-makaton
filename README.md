@@ -12,38 +12,43 @@ World of Makaton gives the user just enough information to get to know this form
 <a></a>
 
 - Navigation: 
-    - Each page has a title > Home page - World of Makaton; About - About Makaton; ABC - ABC ... Alphabet; Sign Up - Sign Up.
-    - Navigation links are on each page in the top right corner of every screen size to take the user to a different page of the website.
+    - Navigation links are on top of each page on every screen size to take the user to a different page of the website.
+          - It allows the user to easily navigate from page to page across all devices as the navbar is in fixed position even if you scroll through any page.
     - Sections of the navigation bar are: Home, About, ABC, and Sign Up.
-    - Font and color compliment the overall look of the website and is consistent throughout on each .
-    - It allows the user to easily navigate from page to page across all devices.
+        - Each page has a title > Home page - World of Makaton; About - About Makaton; ABC - ABC ... Alphabet; Sign Up - Sign Up.
+    - Fonts and colors compliment the overall look of the website and are consistent throughout.
 
-![Navigation bar image](wireframes/nav_bar.JPG)
+![Navigation bar image](wireframes/fixed_navbar.PNG)
 
 - Home page image:
     - The header shows the name of the website, using the a chosen color of purple shade (#894ac5). 
-    - The header's tagline gives the user clear information about what the website is.
+    - The header's tagline gives the user clear information about what the website is about.
 
-    SCREENSHOT
+![Home page image](wireframes/home_page.png)
 
 - Footer: 
-    > Contains social media links like Faceboook, Twitter and YouTube and link to an email in form of icons. The links will open to a new tab to allow easy navigation for the user. The email link will open the user's choice of email software. 
-    > Contains copyright information, including year of creation and my name
+    - Contains social media links leading to Faceboook, Twitter and YouTube and link to an email in form of icons. The links will open in a new tab to allow easy navigation and avoid using 'back' button to return to the page. The email link will open the user's choice of email software, i.e. desktop mail app/Outlook and the Email
+    - Contains copyright information, including year of creation and my name
 
-    SCREENSHOT
+![Footer image](wireframes/footer.PNG)
 
 - About:
-    > This section gives the user information about what Makaton (subject of the website) is, how it is used and the best tips on how to start learning it.
-    > Image shows the finger alphabet.
+    - This section gives the user information about what Makaton (subject of the website) is, how it is used and the best tips on how to start learning it.
+    - Image shows the character of Mr Tumbles from CBeebies shows 'Something Special'
 
-    SCREENSHOT
+![About page image](wireframes/about_page.PNG)
+
+- ABC:
+    - This page contains images of the Makaton finger alphabet. Every single picture has a thin border to separate each image from each other and again allow better user experience
+
+![ABC page image](wireframes/abc_page.PNG)
 
 - Sign Up:
     > Sign up page has a form to collect user's details if they would like to receive news & updates
     > Form collects name, email and selection of newsletter type the user would like to receive
     > Users will be able choose if they would like to get text materials, video tutorials or informations about any running workshops. The user will be asked to submit their name and email address.
 
-    SCREENSHOT
+![Sign Up page image](wireframes/sign_up_page.PNG)
 
 
 <strong>TESTING</strong>
