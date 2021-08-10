@@ -130,7 +130,7 @@ footer {
     bottom: 0px;
     right: 0;
     width: 100%;
-    height: 35px;
+    height: 40px;
 }
 
 footer>a {
@@ -163,7 +163,7 @@ h2 {
     padding: 10px;
     margin: 5%;
     width: auto;
-    font-size: 150%;
+    font-size: 180%;
 }
 
 .text h2 {
@@ -218,10 +218,11 @@ ol {
 
 
 .form-section {
-    clear: left;
-    background: url("./images/hands.jpg");
+    /* clear: left; */
+    background: url(./images/hands.jpg);
     background-size: cover;
-    height: 800px;
+    height: 1200px;
+    position: static;
 }
 
 .form-section h5 {
@@ -245,6 +246,12 @@ ol {
 .signup-form h2 {
     color: white;
     margin-bottom: 20px;
+}
+
+
+select#signup {
+    font-size: inherit;
+    font-family: inherit;
 }
 
 .text-input {
@@ -303,7 +310,7 @@ h2 i {
 @media screen and (max-width: 1200px) {
 
     h1 {
-        font-size: 250%;
+        font-size: 300%;
         text-align: center;
     }
 
@@ -315,10 +322,6 @@ h2 i {
         padding: 50px;
     }
 
-    #home-image {
-        height: 1100px;
-    }
-
     h3 {
         font-size: 150%;
         width: 600px;
@@ -327,18 +330,17 @@ h2 i {
         left: 0;
         margin: 0;
     }
+    
+    footer {
+        height: 50px;
+    }
 
     footer>a {
         font-size: 165%;
     }
 
-    h2 {
-        font-size: 140%;
-        letter-spacing: 0;
-    }
-
     .text {
-        font-size: 120%;
+        font-size: 160%;
     }
 
     ol {
@@ -347,7 +349,7 @@ h2 i {
 
     .form-section {
         clear: both;
-        height: 950px;
+        height: 1000px;
     }
 
     .form-section label {
@@ -357,9 +359,13 @@ h2 i {
 
     .signup-form {
         margin: 15% 0 0 10%;
-        font-size: 150%;
+        font-size: 175%;
         width: 550px;
         padding: 35px;
+    }
+
+    select#signup {
+        font-size: large;
     }
 
     .signup-form h2 {
@@ -368,7 +374,7 @@ h2 i {
 
     .text-input {
         width: 90%;
-        height: 20px;
+        height: 25px;
     }
 
     h2 i {
@@ -397,6 +403,18 @@ h2 i {
         font-size: 125%;
     }
 
+    footer {
+        height: 30px;
+    }
+
+    footer>a {
+        font-size: 140%;
+    }
+
+    footer>p {
+        font-size: 90%;
+    }
+
     h2 {
         font-size: 130%;
     }
@@ -422,7 +440,11 @@ h2 i {
     }
    
     .form-section {
-        height: 700px;
+        height: 850px;
+    }
+
+    select#signup {
+        font-size: inherit;
     }
 
     .join-button {
@@ -499,7 +521,7 @@ h2 i {
     }
 
     #alphabet {
-        margin: 150px 3.5%;
+        margin: 50px;
     }
 
     .form-section {
@@ -594,7 +616,7 @@ h2 i {
     }
         
     h2 {
-        font-size: 100%;
+        font-size: 95%;
     }
   
     .text li {

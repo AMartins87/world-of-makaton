@@ -20,33 +20,33 @@ World of Makaton gives the user just enough information to get to know this form
 
 ![Navigation bar image](wireframes/fixed_navbar.PNG)
 
-- Home page image:
+- <strong>Home page image:</strong>
     - The header shows the name of the website, using the a chosen color of purple shade (#894ac5). 
     - The header's tagline gives the user clear information about what the website is about.
 
 ![Home page image](wireframes/home_page.png)
 
-- Footer: 
+- <strong>Footer:</strong>
     - Contains social media links leading to Faceboook, Twitter and YouTube and link to an email in form of icons. The links will open in a new tab to allow easy navigation and avoid using 'back' button to return to the page. The email link will open the user's choice of email software, i.e. desktop mail app/Outlook and the Email
     - Contains copyright information, including year of creation and my name
 
 ![Footer image](wireframes/footer.PNG)
 
-- About:
+- <strong>About:</strong>
     - This section gives the user information about what Makaton (subject of the website) is, how it is used and the best tips on how to start learning it.
     - Image shows the character of Mr Tumbles from CBeebies shows 'Something Special'
 
 ![About page image](wireframes/about_page.PNG)
 
-- ABC:
+- <strong>ABC:</strong>
     - This page contains images of the Makaton finger alphabet. Every single picture has a thin border to separate each image from each other and again allow better user experience
 
 ![ABC page image](wireframes/abc_page.PNG)
 
-- Sign Up:
-    > Sign up page has a form to collect user's details if they would like to receive news & updates
-    > Form collects name, email and selection of newsletter type the user would like to receive
-    > Users will be able choose if they would like to get text materials, video tutorials or informations about any running workshops. The user will be asked to submit their name and email address.
+- <strong>Sign Up:</strong>
+    - Sign up page has a form to collect user's details if they would like to receive news & updates
+    - Form collects name, email and selection of newsletter type the user would like to receive
+    - Users will be able choose if they would like to get text materials, video tutorials or informations about any running workshops. The user will be asked to submit their name and email address.
 
 ![Sign Up page image](wireframes/sign_up_page.PNG)
 
@@ -63,7 +63,7 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 ------
 
-Validator Testing
+<h2><strong>VALIDATOR TESTING</strong></h2>
 
 inc links to the validators to prove it
 
@@ -86,23 +86,24 @@ Once the master branch has been selected, the page will be automatically refresh
 The live link can be found here LINK
 ------
 
-Credits
+<h2><strong>CREDITS</strong></h2>
 ------
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
 
 You can break the credits section up into Content and Media, depending on what you have included in your project.
 ------
 
-Content
+- Content
 The text for the Home page was taken from Wikipedia Article A
 Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
 The icons in the footer were taken from ![Font Awesome] (https://fontawesome.com/)
-Media
+
+- Media
 The photos used on the home and sign up page are from This Open Source site
 The images used for the gallery page were taken from this other open source site
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
 
-<strong>BUGS</strong>
+<h2><strong>BUGS</strong></h2>
 
 Right at the beginning my page wasn't loading all the style changes. I realised I forgot to link the style.css file with the index.html file. Once I linked it, all was fixed.
 I added the meta keywords and names at that time as well. 
