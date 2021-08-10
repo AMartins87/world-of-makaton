@@ -1,8 +1,10 @@
 ## **WORLD OF MAKATON**
 
-The purpose of the World of Makaton website is to introduce more people to this wonderful and easy sign language which supports children and adults who may have learning difficulties and/or delays, to communicate better.
+The purpose of the World of Makaton website is to introduce more people to this wonderful and easy to learn sign language which supports children and adults who may have learning difficulties and/or delays, to communicate better.
 
-World of Makaton gives the user just enough information to get to know this form of communication and it gives some external pointers if they would like to know more about the background of it. 
+I wanted to keep the site concise and easy to navigate through as there are multiple pages out there which are good as they contain lots of information about the subject but they are not very easy to navigate through and lots of important pieces of information are scattered over several pages.
+
+World of Makaton gives the user a taster of this form of communication and it gives an external pointer to a TV programme which I'd highly recommend as it will help with learning the sign language in form of fun and play. 
 
 
 ![Mock up image](wireframes/mockup.JPG)
@@ -94,9 +96,11 @@ You can break the credits section up into Content and Media, depending on what y
 ------
 
 - Content
-The text for the Home page was taken from Wikipedia Article A
-Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
-The icons in the footer were taken from ![Font Awesome] (https://fontawesome.com/)
+    - My main point of reference for the written content was ![Makaton website](https://makaton.org) to double check I wasn't going to write an incorrect data and information.  
+
+- The icons in the footer were taken from ![Font Awesome] (https://fontawesome.com/)
+- Code 
+    - The select option code was advised to use by my mentor Maria Hynes as I couldn't implement a 'required' attribute to my previous checkbox option without using a javascript. 
 
 - Media
 The photos used on the home and sign up page are from This Open Source site
