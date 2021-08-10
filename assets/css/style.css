@@ -29,6 +29,8 @@ h1 {
     width: 100%;
 }
 
+/* old navbar */
+
 /* .right {
     float: right;
     margin: 20px;
@@ -81,7 +83,7 @@ h1 {
 }
 
 .right a:hover {
-    border-radius: 5px;
+    border-radius: 120px;
     background-color: crimson;
 }
 
@@ -91,8 +93,8 @@ h1 {
     text-decoration: none;
 }
 
-.active {
-    border-radius: 5px;
+a.active {
+    border-radius: 120px;
     background-color: crimson;
 }
 
@@ -218,12 +220,13 @@ ol {
 
 
 .form-section {
-    /* clear: left; */
+    clear: left;
     background: url(./images/hands.jpg);
     background-size: cover;
-    height: 1200px;
+    height: 1300px;
     position: static;
 }
+
 
 .form-section h5 {
     color: white;
@@ -320,6 +323,14 @@ h2 i {
 
     .right a {
         padding: 50px;
+    }
+
+    right a:hover {
+        border-radius: 100px;
+    }
+
+    a.active {
+        border-radius: 100px;
     }
 
     h3 {
@@ -494,8 +505,8 @@ h2 i {
     }
     
     footer>a {
-        font-size: 90%;
-        padding-top: 10px;
+        font-size: 100%;
+        padding-top: 8px;
         letter-spacing: 25px;
     }
 
@@ -587,9 +598,17 @@ h2 i {
         padding: 10px;
     }
 
+    a.active {
+        border-radius: 10px;
+    }
+
+    .right a:hover {
+        border-radius: 10px;
+    }
+
     #home-image {
         width: 100%;
-        height: 650px;
+        height: 600px;
     }
 
     h3 {

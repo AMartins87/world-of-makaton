@@ -18,25 +18,25 @@ World of Makaton gives the user just enough information to get to know this form
         - Each page has a title > Home page - World of Makaton; About - About Makaton; ABC - ABC ... Alphabet; Sign Up - Sign Up.
     - Fonts and colors compliment the overall look of the website and are consistent throughout.
 
-![Navigation bar image](wireframes/fixed_navbar.PNG)
+![Navigation bar image](wireframes/navbar.JPG)
 
 - <strong>Home page image:</strong>
     - The header shows the name of the website, using the a chosen color of purple shade (#894ac5). 
     - The header's tagline gives the user clear information about what the website is about.
 
-![Home page image](wireframes/home_page.png)
+![Home page image](wireframes/home_image.jng)
 
 - <strong>Footer:</strong>
     - Contains social media links leading to Faceboook, Twitter and YouTube and link to an email in form of icons. The links will open in a new tab to allow easy navigation and avoid using 'back' button to return to the page. The email link will open the user's choice of email software, i.e. desktop mail app/Outlook and the Email
     - Contains copyright information, including year of creation and my name
 
-![Footer image](wireframes/footer.PNG)
+![Footer image](wireframes/footer.jpg)
 
 - <strong>About:</strong>
     - This section gives the user information about what Makaton (subject of the website) is, how it is used and the best tips on how to start learning it.
     - Image shows the character of Mr Tumbles from CBeebies shows 'Something Special'
 
-![About page image](wireframes/about_page.PNG)
+![About page image](wireframes/about_page.jpg)
 
 - <strong>ABC:</strong>
     - This page contains images of the Makaton finger alphabet. Every single picture has a thin border to separate each image from each other and again allow better user experience
@@ -105,5 +105,7 @@ Congratulations on completing your Readme, you have made another big stride in t
 
 <h2><strong>BUGS</strong></h2>
 
-Right at the beginning my page wasn't loading all the style changes. I realised I forgot to link the style.css file with the index.html file. Once I linked it, all was fixed.
-I added the meta keywords and names at that time as well. 
+-   Right at the beginning my page wasn't loading all the style changes. I realised I forgot to link the style.css file with the index.html file. Once I linked it, all was fixed.
+
+-   When I ran the code through a validator, an error popped up on my sign_up.html page in my '.form-section'. I have had set the target="_blanket" and it had strangely worked - a new page opened up in a new window. However the correct value is target="_blank". 
+
