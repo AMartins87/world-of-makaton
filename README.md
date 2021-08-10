@@ -26,19 +26,19 @@ World of Makaton gives the user a taster of this form of communication and it gi
     - The header shows the name of the website, using the a chosen color of purple shade (#894ac5). 
     - The header's tagline gives the user clear information about what the website is about.
 
-![Home page image](wireframes/home_image.jng)
+![Home page image](wireframes/home_image.JPG)
 
 - <strong>Footer:</strong>
     - Contains social media links leading to Faceboook, Twitter and YouTube and link to an email in form of icons. The links will open in a new tab to allow easy navigation and avoid using 'back' button to return to the page. The email link will open the user's choice of email software, i.e. desktop mail app/Outlook and the Email
     - Contains copyright information, including year of creation and my name
 
-![Footer image](wireframes/footer.jpg)
+![Footer image](wireframes/footer.JPG)
 
 - <strong>About:</strong>
     - This section gives the user information about what Makaton (subject of the website) is, how it is used and the best tips on how to start learning it.
     - Image shows the character of Mr Tumbles from CBeebies shows 'Something Special'
 
-![About page image](wireframes/about_page.jpg)
+![About page image](wireframes/about_page.JPG)
 
 - <strong>ABC:</strong>
     - This page contains images of the Makaton finger alphabet. Every single picture has a thin border to separate each image from each other and again allow better user experience
@@ -50,7 +50,7 @@ World of Makaton gives the user a taster of this form of communication and it gi
     - Form collects name, email and selection of newsletter type the user would like to receive
     - Users will be able choose if they would like to get text materials, video tutorials or informations about any running workshops. The user will be asked to submit their name and email address.
 
-![Sign Up page image](wireframes/sign_up_page.PNG)
+![Sign Up page image](wireframes/signup_page.JPG)
 
 
 <strong>TESTING</strong>
@@ -67,10 +67,12 @@ If this section grows too long, you may want to split it off into a separate fil
 
 <h2><strong>VALIDATOR TESTING</strong></h2>
 
-inc links to the validators to prove it
-
-    > HTML (No errors were returned when passing through the official W3C validator) 
-    > CSS (No errors were found when passing through the official (Jigsaw) validator)
+-   HTML (No errors were returned when passing through the official W3C validator 
+![Home page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Findex.html)
+![About page](9https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fabout.html)
+![Abc page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fabc.html)
+![Sign Up page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fsign_up.html)
+-   CSS (No errors were found when passing through the official ![Jigsaw validator](http://jigsaw.w3.org/css-validator/validator$link)
 
 Unfixed Bugs
 ------
