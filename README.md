@@ -1,6 +1,4 @@
-## **WORLD OF MAKATON**
-
-This project is for educational purposes only.
+# **WORLD OF MAKATON**
 
 The purpose of the World of Makaton website is to introduce more people to this wonderful and easy to learn sign language which supports children and adults who may have learning difficulties and/or delays, to communicate better.
 
@@ -19,7 +17,11 @@ World of Makaton gives the user a taster of this form of communication and it gi
     - Navigation links are on top of each page on every screen size to take the user to a different page of the website.
           - It allows the user to easily navigate from page to page across all devices as the navbar is in a fixed position even if you scroll through any page.
     - Sections of the navigation bar are: Home, About, ABC, and Sign Up.
-        - Each page has a title > Home page - World of Makaton; About - About Makaton; ABC - ABC ... Alphabet; Sign Up - Sign Up.
+        - Each page has a title:
+            -   Home page - World of Makaton
+            -   About - About Makaton
+            -   ABC - ABC ... Alphabet
+            -   Sign Up - Sign Up
     - Fonts and colors compliment the overall look of the website and are consistent throughout.
 
 ![Navigation bar image](wireframes/navbar.JPG)
@@ -71,10 +73,10 @@ If this section grows too long, you may want to split it off into a separate fil
 ## **>VALIDATOR TESTING**
 
 -   HTML (No errors were returned when passing through the official W3C validator 
-        -   [Home page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Findex.html)
-        -   [About page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fabout.html)
-        -   [Abc page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fabc.html)
-        -   [Sign Up page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fsign_up.html)
+    -   [Home page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Findex.html)
+    -   [About page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fabout.html)
+    -   [Abc page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fabc.html)
+    -   [Sign Up page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fsign_up.html)
 -   CSS (No errors were found when passing through the official ![Jigsaw validator](https://jigsaw.w3.org/css-validator/validator$link)
 
 <a></a>
@@ -86,10 +88,10 @@ If this section grows too long, you may want to split it off into a separate fil
 ## **DEPLOYMENT**
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
-    1.  In the GitHub repository, navigate to the **Settings** tab, then **Pages** section
-    2.  From the **Source** section drop-down menu, select the **Branch:main**
-    3.  Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-    4.  Now this site is live and published at (https://amartins87.github.io/world-of-makaton/)
+1.  In the GitHub repository, navigate to the **Settings** tab, then **Pages** section
+2.  From the **Source** section drop-down menu, select the **Branch:main**
+3.  Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+4.  Now this site is live and published at (https://amartins87.github.io/world-of-makaton/)
 
 <a></a>
 ## **CREDITS**
@@ -106,12 +108,14 @@ In this section you need to reference where you got your content, media and extr
     - The select option code was advised to use by my mentor Maria Hynes as I couldn't implement a 'required' attribute to my previous checkbox option without using a javascript. 
 
 - **Media**
-    *This project is for educational purposes only.*
+
     - Home page image was obtained via [Shutterstock](https://www.shutterstock.com/image-photo/brother-sister-learn-sign-language-home-450847297) 
     - About page image was btained via Google search
     - Abc page images were obtained via [Makaton website](https://makaton.org/TMC/Free_resources_.aspx) in their library which contains free resources for anyone who creates an account with the organization's website
     - Sign Up page image inspiration came from our local children's centre where they have hanged images of kids' hand prints in rainbow colors. The image was obtained via [Clip Art Best website](http://www.clipartbest.com/clipart-9i4ogx4GT) which are free to download and use in my designs. 
     - Image on the hidden Thank You page was obtained via [Makaton website](https://makaton.org/TMC/Free_resources_.aspx) from their library of free resources.
+
+*This project is for educational purposes only.*
 
 ## **BUGS**
 
