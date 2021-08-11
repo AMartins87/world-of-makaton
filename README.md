@@ -12,7 +12,7 @@ World of Makaton gives the user a taster of this form of communication and it gi
 
 ## **FEATURES**
 
-- ### **Navigation:**
+- ### **NAVIGATION**
     - Navigation links are on top of each page on every screen size to take the user to a different page of the website.
           - It allows the user to easily navigate from page to page across all devices as the navbar is in a fixed position, so it stays put if you scroll through any page.
     - Sections of the navigation bar are: Home, About, ABC, and Sign Up.
@@ -26,38 +26,38 @@ World of Makaton gives the user a taster of this form of communication and it gi
 
 ![Navigation bar image](wireframes/navbar.JPG)
 
-- ### **Home page image:**
+- ### **HOME PAGE IMAGE**
     - The header shows the name of the website, using a chosen color of purple shade (#894ac5). 
     - The header's tagline gives the user clear information about the website's topic.
 
 ![Home page image](wireframes/home_image.JPG)
 
-- ### **Footer:**
+- ### **FOOTER**
     - Contains social media links leading to Facebook, Twitter, and YouTube and a link to an email in form of icons at the bottom of each page. The links will open in a new tab to allow easy navigation and avoid using the 'back' button to return to the page. The email link will open the user's choice of email software, i.e. desktop mail app/Outlook.
     - It also contains copyright information, including a year of creation and my name.
 
 ![Footer image](wireframes/footer.PNG)
 
-- ### **About:**
+- ### **ABOUT PAGE**
     - This section gives a user information about what Makaton (topic of the website) is, how it is used, and the best tips on how to start learning it.
     - Image shows the character of Mr Tumbles from CBeebies shows 'Something Special' to which I included an external link for users to click on and be redirected into a new window.
 
 ![About page image](wireframes/about_page_nv.JPG)
 
-- ### **ABC:**
+- ### **ABC PAGE**
     - This page contains images of the Makaton finger alphabet. Every single picture has a thin border to separate each image from each other and again allow a better user experience on all screen sizes. 
 
 ![ABC page image](wireframes/abc_page.PNG)
 
 
-- ### **Sign Up:**
+- ### **SIGN UP PAGE**
     - Sign up page has a form to collect user's details if they would like to receive news & updates
     - Form collects name, email, and selection of newsletter type the user would like to receive
     - Users will be able to choose if they would like to get email updates and video tutorials, information about any running workshops, or they can select to subscribe to all.
 
 ![Sign Up page image](wireframes/signup_page.JPG)
    
-- ### **Thank you page(hidden):**
+- ### **THANK YOU (HIDDEN PAGE):**
     - After the user fills in the sign up form and clicks on 'Send' button on Sign Up page, it will open up a new window to confirm their successful registration.     
 
 ![Thank You page image](wireframes/thank_you_page.PNG)
@@ -147,19 +147,19 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 ## **CREDITS**
 
-- **Content**
+- **CONTENT**
     - My main point of reference for the written content was [Makaton website](https://makaton.org) to double-check that I wasn't going to write incorrect data and information.  
 
     - The icons in the footer and a sign up form were taken from [Font Awesome](https://fontawesome.com/)
 
-- **Code**
+- **CODE**
     - I searched on [W3Schools](https://www.w3schools.com) when I looked for the best way to incorporate images on About and Alphabet pages. Even though I didn't use any of the code in my final version, I have learnt a great deal from trying out new ways of displaying images like a responsive grid layout. 
 
     - Code for the form page was taken from the Love Running project and only minor changes were made, like a change of font, image position, height, color scheme, and adding a code for cursor.
 
     - The select option code was advised to use by my mentor Maria Hynes as I couldn't implement a 'required' attribute to my previous checkbox option without using a javascript. 
 
-- **Media**
+- **MEDIA**
 
     - Home page image was obtained via [Shutterstock](https://www.shutterstock.com/image-photo/brother-sister-learn-sign-language-home-450847297). 
     - About page image was obtained via official [Something Special magazine Twitter account](https://twitter.com/MyMrTumbleMag/status/980490147996360705?s=20). 
