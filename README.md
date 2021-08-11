@@ -59,7 +59,7 @@ World of Makaton gives the user a taster of this form of communication and it gi
 -  **Thank you page(hidden):**
     - After the user fills in the sign up form and clicks on Send button on Sign Up page, it will open up a new window to confirm their successful registration.     
 
-![Thank You page image](wireframes/Thank_you_page.png)
+![Thank You page image](wireframes/thank_you_page.PNG)
 
 <a></a>
 
@@ -101,6 +101,10 @@ In addition, you should mention in this section how your project looks and works
 
 <a></a>
 
+## **ACCESSIBILITY**
+
+-   
+
 ## **BUGS**
 
 -   Right at the beginning my page wasn't loading all the style changes. I realized I forgot to link the style.css file with the index.html file. Once I linked it, all was fixed.
@@ -110,6 +114,8 @@ In addition, you should mention in this section how your project looks and works
 - When I resized images with TinyJPG, the Lighthouse report came back with low Best Practices, so I reverted to old sizes. All images uploaded well apart from letter F. I deleted and uploaded the image again and retyped the link path to letter F and the issue got fixed. 
 
     ![Letter F](wireframes/letter_f_error.JPG)
+
+- Got an error on my Lighthouse report about my external links in a footer and About page, stating links to cross-origin destinations are unsafe. Error was resolved by adding rel="noreferrer"
 
 ## **UNFIXED BUGS**
 
