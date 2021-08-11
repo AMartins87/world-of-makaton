@@ -6,7 +6,6 @@ I wanted to keep the site concise and easy to navigate through as there are mult
 
 World of Makaton gives the user a taster of this form of communication and it gives an external pointer to a TV programme which I'd highly recommend as it will help with learning the sign language in form of fun and play. 
 
-
 ![Mock up image](wireframes/mockup.JPG)
 
 <a></a>
@@ -56,15 +55,18 @@ World of Makaton gives the user a taster of this form of communication and it gi
     - Users will be able to choose if they would like to get text materials, video tutorials, or information about any running workshops. The user will be asked to submit their name and email address.
 
 ![Sign Up page image](wireframes/signup_page.JPG)
+   
+-  **Thank you page(hidden):**
+    - After user fills in the sign up form and clicks on Send button on Sign Up page, it will open up a new window to confirm their successful registration.     
+
+![Thank You page image](wireframes/Thank_you_page.png)
 
 <a></a>
 
 ## **TESTING**
 
 
-As you can see in my wireframes image below, they layout was originally planned slightly differently, including the position and display of navbar. 
-
-![Wireframes](wireframes/Makaton_wireframe_all.png)
+As you can see in my [wireframes](wireframes/Makaton_wireframe_all.png), they layout was originally planned slightly differently, including the position and display of navbar. 
 
 To improve user's experience and ease of navigation on smaller screens, I changed the navbar to be in a fixed position top of the page on every screen. 
 
@@ -137,4 +139,4 @@ In this section you need to reference where you got your content, media and extr
 
 - When I resized images with TinyJPG, the Lighthouse report came back with low Best Practices, so I reverted to old sizes. All images uploaded well apart from letter F. I deleted and uploaded the image again and retyped the link path to letter F and the issue got fixed. 
 
-![Letter F](wireframes/letter_f_error.png)
+    ![Letter F](wireframes/letter_f_error.jpg)
