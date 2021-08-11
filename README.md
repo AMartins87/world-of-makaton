@@ -112,10 +112,10 @@ In addition, you should mention in this section how your project looks and works
     - [Lighthouse report - About page - mobile](wireframes/Lighthouse_mobile_about.PNG)
     - [Lighthouse report - Abc page - mobile](wireframes/Lighthouse_mobile_abc.PNG)
     - [Lighthouse report - Sign Up page - mobile](wireframes/Lighthouse_mobile_signup.PNG)
-    - [Lighthouse report - Home page - desktop](wireframes/Lighthouse_desktop_home.PNG)
-    - [Lighthouse report - About page - desktop](wireframes/Lighthouse_desktop_about.PNG)
-    - [Lighthouse report - Abc page - desktop](wireframes/Lighthouse_desktop_abc.PNG)
-    - [Lighthouse report - Sign Up page - desktop](wireframes/Lighthouse_desktop_signup.PNG)
+    - [Lighthouse report - Home page - desktop](wireframes/accessibility/Lighthouse_desktop_report_home.PNG)
+    - [Lighthouse report - About page - desktop](wireframes/accessibility/Lighthouse_desktop_report_about.PNG)
+    - [Lighthouse report - Abc page - desktop](wireframes/accessibility/Lighthouse_desktop_report_abc.PNG)
+    - [Lighthouse report - Sign Up page - desktop](wireframes/accessibility/Lighthouse_desktop_report_signup.PNG)
 
 ## **BUGS**
 
