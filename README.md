@@ -87,12 +87,12 @@ Once the user clicks on the Send button, it will open up a new page confirming s
 
 ## **VALIDATOR TESTING**
 
--   HTML (No errors were returned when passing through the official W3C validator 
+-   **HTML** (No errors were returned when passing through the official W3C validator 
     -   [Home page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Findex.html)
     -   [About page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fabout.html)
     -   [Abc page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fabc.html) - yellow warning - details in [**Unfixed Bugs**](#unfixed-bugs)
     -   [Sign Up page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fsign_up.html)
--   CSS (No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator$link)
+-   **CSS** (No errors were found when passing through the official [Jigsaw validator](http://jigsaw.w3.org/css-validator/check/referer)
 
 
 ## **ACCESSIBILITY**
