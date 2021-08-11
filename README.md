@@ -67,29 +67,26 @@ World of Makaton gives the user a taster of this form of communication and it gi
 
 As you can see in my [wireframes](wireframes/Makaton_wireframe_all.png), the layout was originally planned slightly differently, including the position and display of navbar. 
 
-To improve user's experience and ease of navigation on smaller screens, I changed the navbar to be in a fixed position top of the page on every screen which then eliminated problems on mobile phone touchscreens as the padding area increased with this change and users are able to press the page link without any issues. 
+To improve user's experience and ease of navigation on smaller screens, I changed the navbar to be in a fixed position top of the page on every screen which then eliminated problems on mobile phone touchscreens as the padding area increased with this change and users are able to press the page links without any issues. 
 
-I tested every page on iPad and iPhone 8 and asked my friends and family to test the site on their mobile devices (Huawei, Xiaomi Redmi, and Samsung) and they confirmed the functionality of all pages and links, and they understood the objective of the website.
+I tested every page on iPad and iPhone 8, and I asked my friends and family to test the site on their mobile devices (Huawei, Xiaomi Redmi, and Samsung). They confirmed functionality of all pages and links, and they understood the objective of the website.
 
-I tested the website in Chrome and Microsoft Edge on my desktop PC, and tested it on a laptop in Chrome, Mozilla, and Microsoft Edge. 
+I tested the website in Chrome and Microsoft Edge on my desktop PC and screen resolution of 1920px by 1080px, and tested it on a laptop in Chrome, Mozilla, and Microsoft Edge.
+All content was readable, a
 
-The [home page](https://amartins87.github.io/world-of-makaton/index.html) showcases a cover text area which explains the subject of the website, the menu on top of the page will take you to other sections of the website. Footer has incorporate icons with links to external social media sites which will open in a new window. The mail icon will open preferred mail application on user's device or if not set, will ask about which application they would like to use. Email is preset with address of aneta.martins@outlook.com. 
+The [Home page](https://amartins87.github.io/world-of-makaton/index.html) showcases a cover text area which explains the subject of the website, the menu on top of the page will take you to other sections of the website. Footer has incorporate icons with links to external social media sites which will open in a new window. The mail icon will open preferred mail application on user's device or if not set, will ask about which application they would like to use. Email is preset with address of aneta.martins@outlook.com. 
 
-The [about page](https://amartins87.github.io/world-of-makaton/about.html) explains briefly what is the subject of the website in paragraphs, shows an image of a character from a TV programme which I recommend to watch and shows an ordered list with more information. 
+The [About page](https://amartins87.github.io/world-of-makaton/about.html) explains briefly what is the subject of the website in paragraphs, shows an image of a character from a TV programme which I recommend to watch and shows an ordered list with more information. 
 
 The [ABC page](https://8000-violet-platypus-kcwu1u8i.ws-eu13.gitpod.io/abc.html) has only images of the alphabet and a subheading which tells the user what the images are for. 
 
 The [Sign Up page](https://8000-violet-platypus-kcwu1u8i.ws-eu13.gitpod.io/sign_up.html) contains a sign up form where a user has to write in their name, email and select an option of what materials they'd like to receive. All fields are required and won't allow submission without entries in a correct format like email addresses has to have certain characters to pass.
-Once the user clicks on the Send button, it will open up a new page confirming  successful registration.
+Once the user clicks on the Send button, it will open up a new page confirming successful registration.
 
 ------
 info for me: In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part, you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 <a></a>
 ## **VALIDATOR TESTING**
@@ -103,6 +100,17 @@ If this section grows too long, you may want to split it off into a separate fil
 -   CSS (No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator$link)
 
 <a></a>
+
+## **BUGS**
+
+-   Right at the beginning my page wasn't loading all the style changes. I realized I forgot to link the style.css file with the index.html file. Once I linked it, all was fixed.
+
+-   When I ran the code through a validator, an error popped up on my sign_up.html page in my '.form-section'. I have had set the target="_blanket" and it had strangely worked - a new page opened up in a new window. However the correct value is target="_blank". 
+
+- When I resized images with TinyJPG, the Lighthouse report came back with low Best Practices, so I reverted to old sizes. All images uploaded well apart from letter F. I deleted and uploaded the image again and retyped the link path to letter F and the issue got fixed. 
+
+    ![Letter F](wireframes/letter_f_error.JPG)
+
 ## **UNFIXED BUGS**
 
 -   Yellow warning showed up on the ABC page due to the whole page section not having a heading element. There is no need to use a heading element within the section as the page contains only images of the finger alphabet. 
@@ -118,9 +126,6 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 <a></a>
 ## **CREDITS**
-
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
-
 
 - **Content**
     - My main point of reference for the written content was [Makaton website](https://makaton.org) to double-check that I wasn't going to write incorrect data and information.  
@@ -143,13 +148,3 @@ In this section you need to reference where you got your content, media and extr
     - Image on the hidden Thank You page was obtained via [Makaton website](https://makaton.org/TMC/Free_resources_.aspx) from their library of free resources.
 
 *This project is for educational purposes only.*
-
-## **BUGS**
-
--   Right at the beginning my page wasn't loading all the style changes. I realized I forgot to link the style.css file with the index.html file. Once I linked it, all was fixed.
-
--   When I ran the code through a validator, an error popped up on my sign_up.html page in my '.form-section'. I have had set the target="_blanket" and it had strangely worked - a new page opened up in a new window. However the correct value is target="_blank". 
-
-- When I resized images with TinyJPG, the Lighthouse report came back with low Best Practices, so I reverted to old sizes. All images uploaded well apart from letter F. I deleted and uploaded the image again and retyped the link path to letter F and the issue got fixed. 
-
-    ![Letter F](wireframes/letter_f_error.JPG)
