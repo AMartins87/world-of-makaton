@@ -42,7 +42,7 @@ World of Makaton gives the user a taster of this form of communication and it gi
     - This section gives the user information about what Makaton (subject of the website) is, how it is used, and the best tips on how to start learning it.
     - Image shows the character of Mr Tumbles from CBeebies shows 'Something Special' to which I included an external link for users to click on and be redirected into a new window.
 
-![About page image](wireframes/about_page.JPG)
+![About page image](wireframes/about_page_nv.JPG)
 
 - **ABC:**
     - This page contains images of the Makaton finger alphabet. Every single picture has a thin border to separate each image from each other and again allow a better user experience on all screen sizes. 
