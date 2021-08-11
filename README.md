@@ -92,7 +92,13 @@ Once the user clicks on the Send button, it will open up a new page confirming s
     -   [About page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fabout.html)
     -   [Abc page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fabc.html) - yellow warning - details in [**Unfixed Bugs**](#unfixed-bugs)
     -   [Sign Up page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fsign_up.html)
--   **CSS** (No errors were found when passing through the official [Jigsaw validator](http://jigsaw.w3.org/css-validator/validator$link) [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator#css)
+    
+-   **CSS** (No errors were found when passing through the official Jigsaw validator
+    -   [Home page](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=)
+    -   [About page](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fabout.html&profile=css3svg&usermedium=all&warning=1&vextwarning=)
+    -   [Abc page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fabc.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    -   [Sign Up page](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fsign_up.html&profile=css3svg&usermedium=all&warning=1&vextwarning=)
+
 
 
 ## **ACCESSIBILITY**
