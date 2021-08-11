@@ -40,7 +40,7 @@ World of Makaton gives the user a taster of this form of communication and it gi
 
 - **About:**
     - This section gives the user information about what Makaton (subject of the website) is, how it is used, and the best tips on how to start learning it.
-    - Image shows the character of Mr Tumbles from CBeebies shows 'Something Special'
+    - Image shows the character of Mr Tumbles from CBeebies shows 'Something Special' to which I included an external link for users to click on and be redirected into a new window.
 
 ![About page image](wireframes/about_page.JPG)
 
@@ -58,7 +58,19 @@ World of Makaton gives the user a taster of this form of communication and it gi
 ![Sign Up page image](wireframes/signup_page.JPG)
 
 <a></a>
+
 ## **TESTING**
+
+
+As you can see in my wireframes image below, they layout was originally planned slightly differently, including the position and display of navbar. 
+
+![Wireframes](wireframes/Makaton_wireframe_all.png)
+
+To improve user's experience and ease of navigation on smaller screens, I changed the navbar to be in a fixed position top of the page on every screen. 
+
+I tested every page on iPad and iPhone 8 and asked my friends and family to test the site on their mobile devices (Huawei, Xiaomi Redmi and Samsung) and they confirmed the functionality of all pages and links and were clear on purpose of the website.
+
+I tested the website in Chrome and Microsoft Edge on my desktop PC, and tested it on laptop in Chrome, Mozilla and Microsoft Edge. 
 
 ------
 info for me: In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part, you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
@@ -70,19 +82,19 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 <a></a>
-## **>VALIDATOR TESTING**
+## **VALIDATOR TESTING**
 
 -   HTML (No errors were returned when passing through the official W3C validator 
     -   [Home page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Findex.html)
     -   [About page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fabout.html)
     -   [Abc page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fabc.html)
     -   [Sign Up page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fsign_up.html)
--   CSS (No errors were found when passing through the official ![Jigsaw validator](https://jigsaw.w3.org/css-validator/validator$link)
+-   CSS (No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator$link)
 
 <a></a>
 ## **UNFIXED BUGS**
 
--   Yellow warning showed up on the ABC page due to the whole page section not having a heading element. There is no need to use a heading element as the page contains only images of the finger alphabet. 
+-   Yellow warning showed up on the ABC page due to the whole page section not having a heading element. There is no need to use a heading element within the section as the page contains only images of the finger alphabet. 
 
 <a></a> 
 ## **DEPLOYMENT**
@@ -91,7 +103,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 1.  In the GitHub repository, navigate to the **Settings** tab, then **Pages** section
 2.  From the **Source** section drop-down menu, select the **Branch:main**
 3.  Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-4.  Now this site is live and published at (https://amartins87.github.io/world-of-makaton/)
+4.  Now this site is live and published on https://amartins87.github.io/world-of-makaton/.
 
 <a></a>
 ## **CREDITS**
