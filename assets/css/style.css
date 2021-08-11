@@ -207,7 +207,7 @@ ol {
     color: white;
     font-size: larger;
     background-color: rgba(155, 88, 213, 0.8);
-    width: 650px;
+    width: 850px;
     position: absolute;
     left: 10%;
     padding: 25px;
@@ -558,7 +558,7 @@ h2 i {
     }
 
     .right a {
-        padding: 10px;
+        padding: 5px;
     }
 
     a.active {
