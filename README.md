@@ -103,7 +103,19 @@ In addition, you should mention in this section how your project looks and works
 
 ## **ACCESSIBILITY**
 
--   
+- I checked that the chosen colours and fonts are easy to read. All pages have passed through Lighthouse reporting tool in Chrome developer tools on both mobile and desktop.
+    - [Contrast checker - body text](wireframes/Contrast_checker_body.PNG)
+    - [Contrast checker - header text](wireframes/Contrast_checker_header.PNG)
+    - [Contrast checker - active class and hover selector](wireframes/Contrast_checker_active.PNG)
+
+    - [Lighthouse report - Home page - mobile](wireframes/Lighthouse_mobile_home.PNG)
+    - [Lighthouse report - About page - mobile](wireframes/Lighthouse_mobile_about.PNG)
+    - [Lighthouse report - Abc page - mobile](wireframes/Lighthouse_mobile_abc.PNG)
+    - [Lighthouse report - Sign Up page - mobile](wireframes/Lighthouse_mobile_signup.PNG)
+    - [Lighthouse report - Home page - desktop](wireframes/Lighthouse_desktop_home.PNG)
+    - [Lighthouse report - About page - desktop](wireframes/Lighthouse_desktop_about.PNG)
+    - [Lighthouse report - Abc page - desktop](wireframes/Lighthouse_desktop_abc.PNG)
+    - [Lighthouse report - Sign Up page - desktop](wireframes/Lighthouse_desktop_signup.PNG)
 
 ## **BUGS**
 
