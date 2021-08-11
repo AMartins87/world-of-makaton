@@ -180,7 +180,7 @@ h2 {
 }
 
 .body img {
-    width: auto;
+    width: 100%;
     height: auto;
     border: 0.5px ridge #6d1abb;
     border-radius: 50px;
@@ -325,7 +325,7 @@ h2 i {
         padding: 50px;
     }
 
-    right a:hover {
+    .right a:hover {
         border-radius: 100px;
     }
 
@@ -524,11 +524,6 @@ h2 i {
 
     .text h2 {
         font-size: 120%;
-    }
-
-    .body img {
-        width: 75%;
-        height: 75%;
     }
 
     #alphabet {
