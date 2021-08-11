@@ -87,7 +87,7 @@ If this section grows too long, you may want to split it off into a separate fil
 -   HTML (No errors were returned when passing through the official W3C validator 
     -   [Home page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Findex.html)
     -   [About page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fabout.html)
-    -   [Abc page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fabc.html) - yellow warning - details in [Unfixed Bugs](#UNFIXEDBUGS)
+    -   [Abc page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fabc.html) - yellow warning - details in [Unfixed Bugs](https://github.com/AMartins87/world-of-makaton#unfixed-bugs)
     -   [Sign Up page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fsign_up.html)
 -   CSS (No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator$link)
 
@@ -135,3 +135,6 @@ In this section you need to reference where you got your content, media and extr
 
 -   When I ran the code through a validator, an error popped up on my sign_up.html page in my '.form-section'. I have had set the target="_blanket" and it had strangely worked - a new page opened up in a new window. However the correct value is target="_blank". 
 
+- When I resized images with TinyJPG, the Lighthouse report came back with low Best Practices, so I reverted to old sizes. All images uploaded well apart from letter F. I deleted and uploaded the image again and retyped the link path to letter F and the issue got fixed. 
+
+![Letter F](wireframes/letter_f_error.png)
