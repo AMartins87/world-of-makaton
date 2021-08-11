@@ -8,10 +8,11 @@ World of Makaton gives the user a taster of this form of communication and it gi
 
 ![Mock up image](wireframes/mockup.JPG)
 
+*Please press **Ctrl** or **Command** button and click for any links which you would like to open in a new tab*
 
-## **FEATURES:**
+## **FEATURES**
 
-- **Navigation:**
+- ### **Navigation:**
     - Navigation links are on top of each page on every screen size to take the user to a different page of the website.
           - It allows the user to easily navigate from page to page across all devices as the navbar is in a fixed position, so it stays put if you scroll through any page.
     - Sections of the navigation bar are: Home, About, ABC, and Sign Up.
@@ -25,38 +26,38 @@ World of Makaton gives the user a taster of this form of communication and it gi
 
 ![Navigation bar image](wireframes/navbar.JPG)
 
-- **Home page image:**
+- ### **Home page image:**
     - The header shows the name of the website, using a chosen color of purple shade (#894ac5). 
     - The header's tagline gives the user clear information about the website's topic.
 
 ![Home page image](wireframes/home_image.JPG)
 
-- **Footer:**
+- ### **Footer:**
     - Contains social media links leading to Facebook, Twitter, and YouTube and a link to an email in form of icons at the bottom of each page. The links will open in a new tab to allow easy navigation and avoid using the 'back' button to return to the page. The email link will open the user's choice of email software, i.e. desktop mail app/Outlook.
     - It also contains copyright information, including a year of creation and my name.
 
 ![Footer image](wireframes/footer.PNG)
 
-- **About:**
+- ### **About:**
     - This section gives a user information about what Makaton (topic of the website) is, how it is used, and the best tips on how to start learning it.
     - Image shows the character of Mr Tumbles from CBeebies shows 'Something Special' to which I included an external link for users to click on and be redirected into a new window.
 
 ![About page image](wireframes/about_page_nv.JPG)
 
-- **ABC:**
+- ### **ABC:**
     - This page contains images of the Makaton finger alphabet. Every single picture has a thin border to separate each image from each other and again allow a better user experience on all screen sizes. 
 
 ![ABC page image](wireframes/abc_page.PNG)
 
 
-- **Sign Up:**
+- ### **Sign Up:**
     - Sign up page has a form to collect user's details if they would like to receive news & updates
     - Form collects name, email, and selection of newsletter type the user would like to receive
     - Users will be able to choose if they would like to get email updates and video tutorials, information about any running workshops, or they can select to subscribe to all.
 
 ![Sign Up page image](wireframes/signup_page.JPG)
    
--  **Thank you page(hidden):**
+- ### **Thank you page(hidden):**
     - After the user fills in the sign up form and clicks on 'Send' button on Sign Up page, it will open up a new window to confirm their successful registration.     
 
 ![Thank You page image](wireframes/thank_you_page.PNG)
@@ -85,14 +86,14 @@ The [Sign Up page](https://8000-violet-platypus-kcwu1u8i.ws-eu13.gitpod.io/sign_
 Once the user clicks on the Send button, it will open up a new page confirming successful registration.
 
 
-## **VALIDATOR TESTING**
+### **VALIDATOR TESTING**
 
 -   **HTML** (No errors were returned when passing through the official W3C validator 
     -   [Home page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Findex.html)
     -   [About page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fabout.html)
     -   [Abc page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fabc.html) - yellow warning - details in [**Unfixed Bugs**](#unfixed-bugs)
     -   [Sign Up page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fsign_up.html)
-    
+
 -   **CSS** (No errors were found when passing through the official Jigsaw validator
     -   [Home page](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=)
     -   [About page](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fabout.html&profile=css3svg&usermedium=all&warning=1&vextwarning=)
@@ -101,7 +102,7 @@ Once the user clicks on the Send button, it will open up a new page confirming s
 
 
 
-## **ACCESSIBILITY**
+### **ACCESSIBILITY**
 
 I checked that the chosen colors and fonts are easy to read. All pages have passed through  the Lighthouse reporting tool in Chrome developer tools on both mobile and desktop.
 - [Contrast checker - body text](wireframes/accessibility/Contrast_checker_body.PNG)
@@ -134,7 +135,7 @@ I checked that the chosen colors and fonts are easy to read. All pages have pass
 
 -   Yellow warning showed up on the ABC page due to the whole page section not having a heading element. There is no need to use a heading element within the section as the page contains only images of the finger alphabet. 
 
-<a></a> 
+
 ## **DEPLOYMENT**
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -143,7 +144,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 3.  Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 4.  Now this site is live and published on https://amartins87.github.io/world-of-makaton/.
 
-<a></a>
+
 ## **CREDITS**
 
 - **Content**
