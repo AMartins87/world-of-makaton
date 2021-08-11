@@ -75,7 +75,7 @@ I tested every page on iPad and iPhone 8, and I asked my friends and family to t
 I tested the website in Chrome and Microsoft Edge on my desktop PC with widescreen (screen resolution of 1920px by 1080px), and tested it on a laptop in Chrome, Mozilla, and Microsoft Edge. The site was responsive, looked good, content was readable on all standard screen sizes and all external links open in a new window. 
 
 
-The [Home page](https://amartins87.github.io/world-of-makaton/index.html) showcases a cover text area which explains the subject of the website, the menu on top of the page will take you to other sections of the website. Footer has incorporate icons with links to external social media sites which will open in a new window. The mail icon will open preferred mail application on user's device or if not set, will ask about which application they would like to use. Email is preset with address of aneta.martins@outlook.com. 
+The [Home page](https://amartins87.github.io/world-of-makaton/index.html) showcases a cover text area which explains the subject of the website, the menu on top of the page will take you to other sections of the website. Footer has incorporate icons with links to external social media sites which will open in a new window. The mail icon will open preferred mail application on user's device or if not set, will ask about which application they would like to use. Email recipient is preset with the following email address: aneta.martins@outlook.com. 
 
 The [About page](https://amartins87.github.io/world-of-makaton/about.html) explains briefly what is the subject of the website in paragraphs, shows an image of a character from a TV programme which I recommend to watch and shows an ordered list with more information. 
 
@@ -92,7 +92,7 @@ Once the user clicks on the Send button, it will open up a new page confirming s
     -   [About page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fabout.html)
     -   [Abc page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fabc.html) - yellow warning - details in [**Unfixed Bugs**](#unfixed-bugs)
     -   [Sign Up page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fsign_up.html)
--   **CSS** (No errors were found when passing through the official [Jigsaw validator](http://jigsaw.w3.org/css-validator/check/referer)
+-   **CSS** (No errors were found when passing through the official [Jigsaw validator](http://jigsaw.w3.org/css-validator/validator$link) [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator#css)
 
 
 ## **ACCESSIBILITY**
