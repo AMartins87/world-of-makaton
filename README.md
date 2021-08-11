@@ -72,7 +72,7 @@ To improve user's experience and ease of navigation on smaller screens, I change
 I tested every page on iPad and iPhone 8, and I asked my friends and family to test the site on their mobile devices (Huawei, Xiaomi Redmi, and Samsung). They confirmed functionality of all pages and links, and they understood the objective of the website.
 
 I tested the website in Chrome and Microsoft Edge on my desktop PC and screen resolution of 1920px by 1080px, and tested it on a laptop in Chrome, Mozilla, and Microsoft Edge.
-All content was readable, a
+All content was readable.
 
 The [Home page](https://amartins87.github.io/world-of-makaton/index.html) showcases a cover text area which explains the subject of the website, the menu on top of the page will take you to other sections of the website. Footer has incorporate icons with links to external social media sites which will open in a new window. The mail icon will open preferred mail application on user's device or if not set, will ask about which application they would like to use. Email is preset with address of aneta.martins@outlook.com. 
 
@@ -96,26 +96,26 @@ In addition, you should mention in this section how your project looks and works
     -   [About page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fabout.html)
     -   [Abc page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fabc.html) - yellow warning - details in **Unfixed Bugs**
     -   [Sign Up page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fsign_up.html)
-    - [Thank You page](https://amartins87.github.io/world-of-makaton/thank_you_page.html?name=Aneta+Martins&email_address=aneta.martins%40outlook.com&signup=all)
 -   CSS (No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator$link)
 
 <a></a>
 
 ## **ACCESSIBILITY**
 
-- I checked that the chosen colours and fonts are easy to read. All pages have passed through Lighthouse reporting tool in Chrome developer tools on both mobile and desktop.
-    - [Contrast checker - body text](wireframes/Contrast_checker_body.PNG)
-    - [Contrast checker - header text](wireframes/Contrast_checker_header.PNG)
-    - [Contrast checker - active class and hover selector](wireframes/Contrast_checker_active.PNG)
+I checked that the chosen colours and fonts are easy to read. All pages have passed through Lighthouse reporting tool in Chrome developer tools on both mobile and desktop.
+- [Contrast checker - body text](wireframes/Contrast_checker_body.PNG)
+- [Contrast checker - header text](wireframes/Contrast_checker_header.PNG)
+- [Contrast checker - active class and hover selector](wireframes/Contrast_checker_active.PNG)
 
-    - [Lighthouse report - Home page - mobile](wireframes/Lighthouse_mobile_home.PNG)
-    - [Lighthouse report - About page - mobile](wireframes/Lighthouse_mobile_about.PNG)
-    - [Lighthouse report - Abc page - mobile](wireframes/Lighthouse_mobile_abc.PNG)
-    - [Lighthouse report - Sign Up page - mobile](wireframes/Lighthouse_mobile_signup.PNG)
-    - [Lighthouse report - Home page - desktop](wireframes/accessibility/Lighthouse_desktop_report_home.PNG)
-    - [Lighthouse report - About page - desktop](wireframes/accessibility/Lighthouse_desktop_report_about.PNG)
-    - [Lighthouse report - Abc page - desktop](wireframes/accessibility/Lighthouse_desktop_report_abc.PNG)
-    - [Lighthouse report - Sign Up page - desktop](wireframes/accessibility/Lighthouse_desktop_report_signup.PNG)
+
+- [Lighthouse report - Home page - mobile](wireframes/accessibility/Lighthouse_mobile_report_home.PNG)
+- [Lighthouse report - About page - mobile](wireframes/accessibility/Lighthouse_mobile_report_about.PNG)
+- [Lighthouse report - Abc page - mobile](wireframes/accessibility/Lighthouse_mobile_report_abc.PNG)
+- [Lighthouse report - Sign Up page - mobile](wireframes/accessibility/Lighthouse_mobile_report_signup.PNG)
+- [Lighthouse report - Home page - desktop](wireframes/accessibility/Lighthouse_desktop_report_home.PNG)
+- [Lighthouse report - About page - desktop](wireframes/accessibility/Lighthouse_desktop_report_about.PNG)
+- [Lighthouse report - Abc page - desktop](wireframes/accessibility/Lighthouse_desktop_report_abc.PNG)
+- [Lighthouse report - Sign Up page - desktop](wireframes/accessibility/Lighthouse_desktop_report_signup.PNG)
 
 ## **BUGS**
 
