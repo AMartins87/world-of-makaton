@@ -98,9 +98,9 @@ Once the user clicks on the Send button, it will open up a new page confirming s
 ## **ACCESSIBILITY**
 
 I checked that the chosen colors and fonts are easy to read. All pages have passed through  the Lighthouse reporting tool in Chrome developer tools on both mobile and desktop.
-- [Contrast checker - body text](wireframes/Contrast_checker_body.PNG)
-- [Contrast checker - header text](wireframes/Contrast_checker_header.PNG)
-- [Contrast checker - active class and hover selector](wireframes/Contrast_checker_active.PNG)
+- [Contrast checker - body text](wireframes/accessibility/Contrast_checker_body.PNG)
+- [Contrast checker - header text](wireframes/accessibility/Contrast_checker_header.PNG)
+- [Contrast checker - active class and hover selector](wireframes/accessibility/Contrast_checker_active.PNG)
 ***
 - [Lighthouse report - Home page - mobile](wireframes/accessibility/Lighthouse_mobile_report_home.PNG)
 - [Lighthouse report - About page - mobile](wireframes/accessibility/Lighthouse_mobile_report_about.PNG)
