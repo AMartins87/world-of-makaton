@@ -90,7 +90,7 @@ Once the user clicks on the Send button, it will open up a new page confirming s
 -   HTML (No errors were returned when passing through the official W3C validator 
     -   [Home page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Findex.html)
     -   [About page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fabout.html)
-    -   [Abc page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fabc.html) - yellow warning - details in **Unfixed Bugs**
+    -   [Abc page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fabc.html) - yellow warning - details in [**Unfixed Bugs**](#unfixed-bugs)
     -   [Sign Up page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fsign_up.html)
 -   CSS (No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator$link)
 
@@ -146,11 +146,11 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
     - The icons in the footer and a sign up form were taken from [Font Awesome](https://fontawesome.com/)
 
 - **Code**
-    - I searched on [W3Schools](https://www.w3schools.com) when I looked for the best way to incorporate images on About and Alphabet pages. 
+    - I searched on [W3Schools](https://www.w3schools.com) when I looked for the best way to incorporate images on About and Alphabet pages. Even though I didn't use any of the code in my final version, I have learnt a great deal from trying out new ways of displaying images like a responsive grid layout. 
 
     - Code for the form page was taken from the Love Running project and only minor changes were made, like a change of font, image position, height, color scheme, and adding a code for cursor.
 
-    - The select option code was advised to use by my mentor Maria Hynes as I couldn't implement a Required attribute to my previous checkbox option without using a javascript. 
+    - The select option code was advised to use by my mentor Maria Hynes as I couldn't implement a 'required' attribute to my previous checkbox option without using a javascript. 
 
 - **Media**
 
