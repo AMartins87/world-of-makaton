@@ -98,7 +98,7 @@ Once the user clicks on the 'Send' button, it will take the user to a page with 
 
 -   **CSS** (No errors were found when passing through the official Jigsaw validator
     
-    ![Jigsaw Validator](assets/wireframes/W3C_CSS_validator.PNGs)
+    ![Jigsaw Validator](assets/wireframes/W3C_CSS_validator.PNG)s
 
 
 ### **ACCESSIBILITY**
