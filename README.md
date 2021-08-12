@@ -60,7 +60,7 @@ World of Makaton gives the user a taster of this form of communication and it gi
 ![Sign Up page image](assets/wireframes/sign_up_page.PNG)
    
 - ### **THANK YOU PAGE:**
-    - After the user fills in the sign up form and clicks on 'Send' button on Sign Up page, it will confirm their successful registration.     
+    - After the user fills in the sign up form and clicks on 'Send' button on Sign Up page, it will take the user to a page with a confirmation of their successful registration.     
 
 ![Thank You page image](assets/wireframes/thank_you_page.PNG)
 
@@ -85,7 +85,7 @@ The [About page](https://amartins87.github.io/world-of-makaton/about.html) expla
 The [ABC page](https://8000-violet-platypus-kcwu1u8i.ws-eu13.gitpod.io/abc.html) has only images of the alphabet and a subheading which tells the user what the images are for. 
 
 The [Sign Up page](https://8000-violet-platypus-kcwu1u8i.ws-eu13.gitpod.io/sign_up.html) contains a sign up form where a user has to write in their name, email and select an option of what materials they'd like to receive. All fields are required and won't allow submission without entries in a correct format like email addresses has to have certain characters to pass.
-Once the user clicks on the Send button, it will open up a new page confirming successful registration.
+Once the user clicks on the 'Send' button, it will take the user to a page with a confirmation of their successful registration. Navbar is included on this page for an easy return to the website. 
 
 
 ### **VALIDATOR TESTING**
@@ -98,7 +98,7 @@ Once the user clicks on the Send button, it will open up a new page confirming s
 
 -   **CSS** (No errors were found when passing through the official Jigsaw validator
     
-    [!Jigsaw Validator](assets/wireframes/W3C_CSS_validator.PNGs)
+    ![Jigsaw Validator](assets/wireframes/W3C_CSS_validator.PNGs)
 
 
 ### **ACCESSIBILITY**
