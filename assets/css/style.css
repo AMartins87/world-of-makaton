@@ -188,7 +188,7 @@ ol {
 
 .form-section {
     clear: left;
-    background: url(../images/hands.jpg);
+    background: url(./images/hands.jpg);
     background-position: center;
     background-size: cover;
     height: 1300px;
