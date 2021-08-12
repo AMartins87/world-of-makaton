@@ -26,7 +26,7 @@ World of Makaton gives the user a taster of this form of communication and it gi
     - Fonts and colors compliment the overall look of the website and are consistent throughout.
     - Active page will be highlighted in crimson color. The same color was used for a hover function. 
 
-![Navigation bar image](assets/wireframes/navbar.JPG)
+![Navigation bar image](assets/wireframes/navbar.PNG)
 
 - ### **HOME PAGE IMAGE**
     - The header shows the name of the website, using a chosen color of purple shade (#894ac5). 
