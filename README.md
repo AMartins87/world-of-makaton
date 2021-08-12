@@ -8,7 +8,7 @@ I wanted to keep the site concise and easy to navigate through as there are mult
 
 World of Makaton gives the user a taster of this form of communication and it gives an external pointer to a TV programme which I'd highly recommend as it will help with learning sign language in form of fun and play. 
 
-![Mock up image](wireframes/mockup.JPG)
+![Mock up image](assets/wireframes/mockup.JPG)
 
 *Please press **Ctrl** in Windows or **Command** on Mac button and click for any links which you would like to open in a new tab when in the README.md file*
 
@@ -26,30 +26,30 @@ World of Makaton gives the user a taster of this form of communication and it gi
     - Fonts and colors compliment the overall look of the website and are consistent throughout.
     - Active page will be highlighted in crimson color. The same color was used for a hover function. 
 
-![Navigation bar image](wireframes/navbar.JPG)
+![Navigation bar image](assets/wireframes/navbar.JPG)
 
 - ### **HOME PAGE IMAGE**
     - The header shows the name of the website, using a chosen color of purple shade (#894ac5). 
     - The header's tagline gives the user clear information about the website's topic.
 
-![Home page image](wireframes/home_image.JPG)
+![Home page image](assets/wireframes/home_image.JPG)
 
 - ### **FOOTER**
     - Contains social media links leading to Facebook, Twitter, and YouTube and a link to an email in form of icons at the bottom of each page. The links will open in a new tab to allow easy navigation and avoid using the 'back' button to return to the page. The email link will open the user's choice of email software, i.e. desktop mail app/Outlook.
     - It also contains copyright information, including a year of creation and my name.
 
-![Footer image](wireframes/footer.PNG)
+![Footer image](assets/wireframes/footer.PNG)
 
 - ### **ABOUT PAGE**
     - This section gives a user information about what Makaton (topic of the website) is, how it is used, and the best tips on how to start learning it.
     - Image shows the character of Mr Tumbles from CBeebies shows 'Something Special' to which I included an external link for users to click on and be redirected into a new window.
 
-![About page image](wireframes/about_page_nv.JPG)
+![About page image](assets/wireframes/about_page_nv.JPG)
 
 - ### **ABC PAGE**
     - This page contains images of the Makaton finger alphabet. Every single picture has a thin border to separate each image from each other and again allow a better user experience on all screen sizes. 
 
-![ABC page image](wireframes/abc_page.PNG)
+![ABC page image](assets/wireframes/abc_page.PNG)
 
 
 - ### **SIGN UP PAGE**
@@ -57,17 +57,17 @@ World of Makaton gives the user a taster of this form of communication and it gi
     - Form collects name, email, and selection of newsletter type the user would like to receive
     - Users will be able to choose if they would like to get email updates and video tutorials, information about any running workshops, or they can select to subscribe to all.
 
-![Sign Up page image](wireframes/signup_page.JPG)
+![Sign Up page image](assets/wireframes/sign_up_page.PNG)
    
 - ### **THANK YOU PAGE:**
     - After the user fills in the sign up form and clicks on 'Send' button on Sign Up page, it will confirm their successful registration.     
 
-![Thank You page image](wireframes/thank_you_page.PNG)
+![Thank You page image](assets/wireframes/thank_you_page.PNG)
 
 
 ## **TESTING**
 
-As you can see in my [wireframes](wireframes/Makaton_wireframe_all.png), the layout was originally planned slightly differently, including the position and display of a navbar. 
+As you can see in my [wireframes](assets/wireframes/Makaton_wireframe_all.png), the layout was originally planned slightly differently, including the position and display of a navbar. 
 
 To improve user's experience and ease of navigation on smaller screens, I changed the navbar to be in a fixed position top of the page on every screen which then eliminated problems on mobile phone touchscreens as the padding area increased with this change and users are able to press the page links without any issues. 
 
@@ -97,29 +97,26 @@ Once the user clicks on the Send button, it will open up a new page confirming s
     -   [Sign Up page](https://validator.w3.org/nu/?doc=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fsign_up.html)
 
 -   **CSS** (No errors were found when passing through the official Jigsaw validator
-    -   [Home page](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=)
-    -   [About page](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fabout.html&profile=css3svg&usermedium=all&warning=1&vextwarning=)
-    -   [Abc page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fabc.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-    -   [Sign Up page](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Famartins87.github.io%2Fworld-of-makaton%2Fsign_up.html&profile=css3svg&usermedium=all&warning=1&vextwarning=)
-
+    
+    [!Jigsaw Validator](assets/wireframes/W3C_CSS_validator.PNGs)
 
 
 ### **ACCESSIBILITY**
 
 I checked that the chosen colors and fonts are easy to read. All pages have passed through  the Lighthouse reporting tool in Chrome developer tools on both mobile and desktop.
-- [Contrast checker - body text](wireframes/accessibility/Contrast_checker_body.PNG)
-- [Contrast checker - header text](wireframes/accessibility/Contrast_checker_header.PNG)
-- [Contrast checker - active class and hover selector](wireframes/accessibility/Contrast_checker_active.PNG)
+- [Contrast checker - body text](assets/wireframes/accessibility/Contrast_checker_body.PNG)
+- [Contrast checker - header text](assets/wireframes/accessibility/Contrast_checker_header.PNG)
+- [Contrast checker - active class and hover selector](assets/wireframes/accessibility/Contrast_checker_active.PNG)
 ***
-- [Lighthouse report - Home page - mobile](wireframes/accessibility/Lighthouse_mobile_report_home.PNG)
-- [Lighthouse report - About page - mobile](wireframes/accessibility/Lighthouse_mobile_report_about.PNG)
-- [Lighthouse report - Abc page - mobile](wireframes/accessibility/Lighthouse_mobile_report_abc.PNG)
-- [Lighthouse report - Sign Up page - mobile](wireframes/accessibility/Lighthouse_mobile_report_signup.PNG)
+- [Lighthouse report - Home page - mobile](assets/wireframes/accessibility/Lighthouse_mobile_report_home.PNG)
+- [Lighthouse report - About page - mobile](assets/wireframes/accessibility/Lighthouse_mobile_report_about.PNG)
+- [Lighthouse report - Abc page - mobile](assets/wireframes/accessibility/Lighthouse_mobile_report_abc.PNG)
+- [Lighthouse report - Sign Up page - mobile](assets/wireframes/accessibility/Lighthouse_mobile_report_signup.PNG)
 ***
-- [Lighthouse report - Home page - desktop](wireframes/accessibility/Lighthouse_desktop_report_home.PNG)
-- [Lighthouse report - About page - desktop](wireframes/accessibility/Lighthouse_desktop_report_about.PNG)
-- [Lighthouse report - Abc page - desktop](wireframes/accessibility/Lighthouse_desktop_report_abc.PNG)
-- [Lighthouse report - Sign Up page - desktop](wireframes/accessibility/Lighthouse_desktop_report_signup.PNG)
+- [Lighthouse report - Home page - desktop](assets/wireframes/accessibility/Lighthouse_desktop_report_home.PNG)
+- [Lighthouse report - About page - desktop](assets/wireframes/accessibility/Lighthouse_desktop_report_about.PNG)
+- [Lighthouse report - Abc page - desktop](assets/wireframes/accessibility/Lighthouse_desktop_report_abc.PNG)
+- [Lighthouse report - Sign Up page - desktop](assets/wireframes/accessibility/Lighthouse_desktop_report_signup.PNG)
 
 
 ## **BUGS**
@@ -130,7 +127,7 @@ I checked that the chosen colors and fonts are easy to read. All pages have pass
 
 - When I resized images with TinyJPG, the Lighthouse report came back with low Best Practices, so I reverted to old sizes. All images uploaded well apart from letter F. I deleted and uploaded the image again and retyped the link path to letter F and the issue got fixed. 
 
-    ![Letter F](wireframes/letter_f_error.JPG)
+    ![Letter F](assets/wireframes/letter_f_error.JPG)
 
 - Got an error on my Lighthouse report about my external links in a footer and About page, stating links to cross-origin destinations are unsafe. The error was resolved by adding rel="noreferrer"
 

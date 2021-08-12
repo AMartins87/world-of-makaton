@@ -338,7 +338,6 @@ h2 i {
     }
 
     .form-section label {
-        font-size: 80%;
         display: block;
     }
 
@@ -350,16 +349,11 @@ h2 i {
     }
 
     select#signup {
-        font-size: large;
+        font-size: inherit;
     }
 
     .signup-form h2 {
         font-size: 120%;
-    }
-
-    .text-input {
-        width: 90%;
-        height: 25px;
     }
 
     h2 i {
@@ -429,6 +423,11 @@ h2 i {
     .form-section {
         height: 850px;
     }
+
+    .form-section label {
+        font-size: 110%;
+    }
+    
 
     select#signup {
         font-size: inherit;
