@@ -68,7 +68,7 @@ a.active {
 #home-image {
     height: 1200px;
     width: 100%;
-    background: url(./images/hero_image.jpg) no-repeat center center;
+    background: url(/assets/images/hero_image.jpg) no-repeat center center;
     background-size: cover;
     padding-top: 50px;
     position: static;
@@ -188,7 +188,7 @@ ol {
 
 .form-section {
     clear: left;
-    background: url(./images/hands.jpg);
+    background: url(/assets/images/hands.jpg);
     background-position: center;
     background-size: cover;
     height: 1300px;

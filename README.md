@@ -64,6 +64,10 @@ World of Makaton gives the user a taster of this form of communication and it gi
 
 ![Thank You page image](assets/wireframes/thank_you_page.PNG)
 
+## **FUTURE DEVELOPMENT**
+
+I would like to add a thin side-bar on mobile devices and screens with width of 577px and down on the ABC page with links to each of the letters for easier navigation. 
+Also, I would like to set up a proper collection site to receive subscribers' data once I learn how to do it. It will allow me to distribute any relevant materials and workshop info. 
 
 ## **TESTING**
 
