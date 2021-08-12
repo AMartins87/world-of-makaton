@@ -1,5 +1,7 @@
 # **WORLD OF MAKATON**
 
+You can see the live site [here](https://amartins87.github.io/world-of-makaton/).
+
 The purpose of the World of Makaton website is to introduce more people to this wonderful and easy to learn sign language which supports children and adults who have learning difficulties and/or delays, to communicate better.
 
 I wanted to keep the site concise and easy to navigate through as there are multiple pages out there that are good as they contain lots of information about the subject, but they are not very easy to navigate through and lots of important pieces of information are scattered over several pages.
@@ -8,7 +10,7 @@ World of Makaton gives the user a taster of this form of communication and it gi
 
 ![Mock up image](wireframes/mockup.JPG)
 
-*Please press **Ctrl** or **Command** button and click for any links which you would like to open in a new tab*
+*Please press **Ctrl** in Windows or **Command** on Mac button and click for any links which you would like to open in a new tab when in the README.md file*
 
 ## **FEATURES**
 
@@ -57,8 +59,8 @@ World of Makaton gives the user a taster of this form of communication and it gi
 
 ![Sign Up page image](wireframes/signup_page.JPG)
    
-- ### **THANK YOU (HIDDEN PAGE):**
-    - After the user fills in the sign up form and clicks on 'Send' button on Sign Up page, it will open up a new window to confirm their successful registration.     
+- ### **THANK YOU PAGE:**
+    - After the user fills in the sign up form and clicks on 'Send' button on Sign Up page, it will confirm their successful registration.     
 
 ![Thank You page image](wireframes/thank_you_page.PNG)
 
@@ -119,17 +121,19 @@ I checked that the chosen colors and fonts are easy to read. All pages have pass
 - [Lighthouse report - Abc page - desktop](wireframes/accessibility/Lighthouse_desktop_report_abc.PNG)
 - [Lighthouse report - Sign Up page - desktop](wireframes/accessibility/Lighthouse_desktop_report_signup.PNG)
 
+
 ## **BUGS**
 
 -   Right at the beginning, my page wasn't loading all the style changes. I realized I forgot to link the style.css file with the index.html file. Once I linked it, all was fixed.
 
--   When I ran the code through a validator, an error popped up on my sign_up.html page in my '.form-section'. I have had set the target="_blanket" and it had strangely worked - a new page opened up in a new window. However the correct value is target="_blank". 
+-   When I ran the code through a validator, an error popped up on my sign_up.html page in my '.form-section'. I have had set the target="_blanket" and it had strangely worked - a new page opened up in a new window. The correct value is target="_blank". However the target value was taken out as there's no need for an internal link to open in a new tab or window.
 
 - When I resized images with TinyJPG, the Lighthouse report came back with low Best Practices, so I reverted to old sizes. All images uploaded well apart from letter F. I deleted and uploaded the image again and retyped the link path to letter F and the issue got fixed. 
 
     ![Letter F](wireframes/letter_f_error.JPG)
 
 - Got an error on my Lighthouse report about my external links in a footer and About page, stating links to cross-origin destinations are unsafe. The error was resolved by adding rel="noreferrer"
+
 
 ## **UNFIXED BUGS**
 
