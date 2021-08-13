@@ -113,7 +113,7 @@ I checked that the chosen colors and fonts are easy to read. All pages have pass
 - [Contrast checker - active class and hover selector](assets/wireframes/accessibility/Contrast_checker_active.PNG)
 ***
 - [Lighthouse report - Home page - mobile](assets/wireframes/accessibility/Lighthouse_mobile_report_home.PNG)
-- [Lighthouse report - About page - mobile](assets/wireframes/accessibility/Lighthouse_mobile_report_about.PNG)
+- [Lighthouse report - About page - mobile](assets/wireframes/accessibility/Lighthouse_desktop_report_about.JPG)
 - [Lighthouse report - Abc page - mobile](assets/wireframes/accessibility/Lighthouse_mobile_report_abc.PNG)
 - [Lighthouse report - Sign Up page - mobile](assets/wireframes/accessibility/Lighthouse_mobile_report_signup.PNG)
 ***
