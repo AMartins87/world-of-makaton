@@ -88,8 +88,7 @@ The [About page](https://amartins87.github.io/world-of-makaton/about.html) expla
 
 The [ABC page](https://8000-violet-platypus-kcwu1u8i.ws-eu13.gitpod.io/abc.html) has only images of the alphabet and a subheading which tells the user what the images are for. 
 
-The [Sign Up page](https://8000-violet-platypus-kcwu1u8i.ws-eu13.gitpod.io/sign_up.html) contains a sign up form where a user has to write in their name, email and select an option of what materials they'd like to receive. All fields are required and won't allow submission without entries in a correct format like email addresses has to have certain characters to pass.
-Once the user clicks on the 'Send' button, it will take the user to a page with a confirmation of their successful registration. Navbar is included on this page for an easy return to the website. 
+The [Sign Up page](https://8000-violet-platypus-kcwu1u8i.ws-eu13.gitpod.io/sign_up.html) contains a sign up form where a user has to write in their name, email and select an option of what materials they'd like to receive. All fields are required and won't allow submission without entries in a correct format like an email addresses has to have certain characters to pass.Once the user clicks on the 'Send' button, it will take the user to a page with a confirmation of their successful registration. Navbar is included on this page for an easy return to the website. 
 
 
 ### **VALIDATOR TESTING**
@@ -113,27 +112,27 @@ I checked that the chosen colors and fonts are easy to read. All pages have pass
 - [Contrast checker - active class and hover selector](assets/wireframes/accessibility/Contrast_checker_active.PNG)
 ***
 - [Lighthouse report - Home page - mobile](assets/wireframes/accessibility/Lighthouse_mobile_report_home.PNG)
-- [Lighthouse report - About page - mobile](assets/wireframes/accessibility/Lighthouse_desktop_report_about.JPG)
-- [Lighthouse report - Abc page - mobile](assets/wireframes/accessibility/Lighthouse_mobile_report_abc.PNG)
+- [Lighthouse report - About page - mobile](assets/wireframes/accessibility/Lighthouse_mobile_report_about.JPG)
+- [Lighthouse report - Abc page - mobile](assets/wireframes/accessibility/Lighthouse_mobile_report_abc.JPG)
 - [Lighthouse report - Sign Up page - mobile](assets/wireframes/accessibility/Lighthouse_mobile_report_signup.PNG)
 ***
 - [Lighthouse report - Home page - desktop](assets/wireframes/accessibility/Lighthouse_desktop_report_home.PNG)
-- [Lighthouse report - About page - desktop](assets/wireframes/accessibility/Lighthouse_desktop_report_about.PNG)
+- [Lighthouse report - About page - desktop](assets/wireframes/accessibility/Lighthouse_desktop_report_about.JPG)
 - [Lighthouse report - Abc page - desktop](assets/wireframes/accessibility/Lighthouse_desktop_report_abc.PNG)
 - [Lighthouse report - Sign Up page - desktop](assets/wireframes/accessibility/Lighthouse_desktop_report_signup.PNG)
 
 
 ## **BUGS**
 
--   Right at the beginning, my page wasn't loading all the style changes. I realized I forgot to link the style.css file with the index.html file. Once I linked it, all was fixed.
+-   Right at the beginning, my page wasn't loading none of the style changes. I realized I forgot to link the style.css file with the index.html file. Once I linked it, all was fixed.
 
--   When I ran the code through a validator, an error popped up on my sign_up.html page in my '.form-section'. I have had set the target="_blanket" and it had strangely worked - a new page opened up in a new window. The correct value is target="_blank". However the target value was taken out as there's no need for an internal link to open in a new tab or window.
+-   When I ran the code through a validator, an error popped up on my sign_up.html page in my '.form-section'. I have had set the target="_blanket" and it had strangely worked - a new page opened up in a new window. The correct value is target="_blank". However the target value was taken out as there is no need for an internal link to open in a new tab or window. 
 
-- When I resized images with TinyJPG, the Lighthouse report came back with low Best Practices, so I reverted to old sizes. All images uploaded well apart from letter F. I deleted and uploaded the image again and retyped the link path to letter F and the issue got fixed. 
+- When I resized images with TinyJPG, the Lighthouse report came back with low Best Practices, so I reverted to old sizes. All images uploaded well apart from a letter F. I deleted and uploaded the image again and retyped the link path to a letter F and the issue got fixed. 
 
     ![Letter F](assets/wireframes/letter_f_error.JPG)
 
-- Got an error on my Lighthouse report about my external links in a footer and About page, stating links to cross-origin destinations are unsafe. The error was resolved by adding rel="noreferrer"
+- Got an error on my Lighthouse report about my external links in a footer and 'About' page, stating the links to cross-origin destinations are unsafe. The error was resolved by adding rel="noreferrer".
 
 
 ## **UNFIXED BUGS**
