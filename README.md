@@ -134,6 +134,7 @@ I checked that the chosen colors and fonts are easy to read. All pages have pass
 
 - Got an error on my Lighthouse report about my external links in a footer and 'About' page, stating the links to cross-origin destinations are unsafe. The error was resolved by adding rel="noreferrer".
 
+- When I ran the lighthouse report for final check, the Performance category has changed its score several times, ranging from 83 to 98 even though I didn't change or add html or css code. I feel like this had to be highlighted.
 
 ## **UNFIXED BUGS**
 
