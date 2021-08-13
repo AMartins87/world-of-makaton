@@ -60,14 +60,14 @@ World of Makaton gives the user a taster of this form of communication and it gi
 ![Sign Up page image](assets/wireframes/sign_up_page.PNG)
    
 - ### **THANK YOU PAGE:**
-    - After the user fills in the sign up form and clicks on 'Send' button on Sign Up page, it will take the user to a page with a confirmation of their successful registration.     
+    - After the user fills in the sign up form and clicks on 'Send' button, it will take the user to a page with a confirmation of their successful registration.     
 
 ![Thank You page image](assets/wireframes/thank_you_page.PNG)
 
 ## **FUTURE DEVELOPMENT**
 
 I would like to add a thin side-bar on mobile devices and screens with width of 577px and down on the ABC page with links to each of the letters for easier navigation. 
-Also, I would like to set up a proper collection site to receive subscribers' data once I learn how to do it. It will allow me to distribute any relevant materials and workshop info. 
+Also, I would like to set up a proper collection site to receive subscribers' data once I learn how to do it. It will allow me to distribute all relevant information as per their sign up entries. 
 
 ## **TESTING**
 
@@ -79,10 +79,10 @@ I tested every page in Chrome Developer Tools using responsive design as well as
 
 I tested every page on iPad and iPhone 8, and I asked my friends and family to test the site on their mobile devices (Huawei, Xiaomi Redmi, and Samsung). They confirmed functionality of all pages and links, and they understood the objective of the website.
 
-I tested the website in Chrome and Microsoft Edge on my desktop PC with widescreen (screen resolution of 1920px by 1080px), and tested it on a laptop in Chrome, Mozilla, and Microsoft Edge. The site was responsive, looked good, content was readable on all standard screen sizes and all external links open in a new window. 
+I tested the website in Chrome and Microsoft Edge on my desktop PC with widescreen (screen resolution of 1920px by 1080px), and tested it on a laptop in Chrome, Mozilla, and Microsoft Edge. The site is responsive, looks good, content is readable on all standard screen sizes and all external links open in a new window. 
 
 
-The [Home page](https://amartins87.github.io/world-of-makaton/index.html) showcases a cover text area which explains the subject of the website, the menu on top of the page will take you to other sections of the website. Footer has incorporate icons with links to external social media sites which will open in a new window. The mail icon will open preferred mail application on user's device or if not set, will ask about which application they would like to use. Email recipient is preset with the following email address: aneta.martins@outlook.com. 
+The [Home page](https://amartins87.github.io/world-of-makaton/index.html) showcases a cover text area which explains the subject of the website, the menu on top of the page will take you to other sections of the website. Footer has incorporated icons with links to external social media sites which will open in a new window. The mail icon will open a preferred mail application on user's device or if not set, it will ask which application should be used. Email recipient is preset with the following email address: aneta.martins@outlook.com and subject line containing 'Makaton enquiry'.
 
 The [About page](https://amartins87.github.io/world-of-makaton/about.html) explains briefly what is the subject of the website in paragraphs, shows an image of a character from a TV programme which I recommend to watch and shows an ordered list with more information. 
 
